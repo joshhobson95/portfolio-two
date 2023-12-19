@@ -1,26 +1,50 @@
-import React from 'react'
-import { NavLink } from 'react-router-dom';
+import React, {useState, useEffect} from 'react'
 import './Header.css'
+import DesktopHeader from './DesktopHeader'
+import MobileHeader from './MobileHeader'
+
+
 
 function Header() {
+  const [isMobile, setIsMobile] = useState(false)
+
+
+
+  useEffect(() => {
+    const isMobile = window.innerWidth < 500;
+    setIsMobile(isMobile);
+  }, [isMobile]);
+
   return (
     <div className='header_outer'>
-    <div className="header_right">
-      <h1>
-  <NavLink to='/'>
-      HOME  ||  </NavLink> 
-      </h1>
-      <h1>
-      <NavLink to='/skills'>
-        SKILLS  ||  </NavLink> 
-      </h1>
-      <h1>
-        <NavLink to='/projects'>
-           PROJECTS</NavLink>
-      </h1>
-    </div>
-</div>
+  
+
+
+    {isMobile ? (
+
+      <div>
+            <MobileHeader />
+ 
+      </div>
+    ) : (
+      
+
+      <div>
+            <DesktopHeader />
+
+      </div>
+
+
+
+    )}
+
+
+
+  </div>
+
   )
 }
 
-export default Header
+
+
+export default Header;

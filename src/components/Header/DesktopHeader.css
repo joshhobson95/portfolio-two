@@ -1,0 +1,42 @@
+
+.header_outer {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header_right a {
+    outline: none;
+    text-decoration: none;
+    color: #111;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: rgb(255, 255, 255);
+}
+
+.header_right {
+    z-index: 15 !important;
+    text-align: center;
+    font-size: 20pt;
+    color: #111;
+    line-height: normal;
+    -webkit-text-stroke-width: 0.25px;
+    -webkit-text-stroke-color: rgb(255, 255, 255);
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10rem;
+
+}
+
+.header_shell {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Media query for screens 1500px or larger */
+@media (min-width: 1500px) {
+    .header_right {
+        font-size: 36pt; /* Adjust the font size for larger screens */
+        padding: 35px; /* Adjust padding for larger screens */
+        margin: 35px; /* Adjust margin for larger screens */
+    }
+}

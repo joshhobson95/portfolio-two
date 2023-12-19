@@ -1,42 +1,73 @@
-
-.header_outer {
+.mobile_header_outer {
+    position: fixed;
+    top: 200px;
+    width: 100%;
     display: flex;
     justify-content: flex-end;
-}
-
-.header_right a {
-    outline: none;
-    text-decoration: none;
-    color: #111;
-    -webkit-text-stroke-width: 0.5px;
-    -webkit-text-stroke-color: rgb(255, 255, 255);
-}
-
-.header_right {
-    z-index: 15 !important;
-    text-align: center;
-    font-size: 20pt;
-    color: #111;
-    line-height: normal;
-    -webkit-text-stroke-width: 0.25px;
-    -webkit-text-stroke-color: rgb(255, 255, 255);
-    position: fixed;
-    display: flex;
-    flex-direction: column;
-    margin-top: 10rem;
-
-}
-
-.header_shell {
+    z-index: 20 !important;
+  }
+ 
+  .menu-container {
     display: flex;
     justify-content: space-between;
-}
+    align-items: center;
+    padding: 10px;
+    transition: background-color 0.3s ease-out;
 
-/* Media query for screens 1500px or larger */
-@media (min-width: 1500px) {
-    .header_right {
-        font-size: 36pt; /* Adjust the font size for larger screens */
-        padding: 35px; /* Adjust padding for larger screens */
-        margin: 35px; /* Adjust margin for larger screens */
-    }
-}
+  }
+  #toggle-menu {
+    background-color: #fff; /* Set the background color for the button */
+    color: #333; /* Set the text color for the button */
+    border: none;
+    border-radius: 50%; /* Make the button circular */
+    height: 100px;
+    width: 100px;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 14px;
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5); 
+    transition: background-color 0.3s ease-out, transform 0.3s ease-out; /* Add transition for smoother effect */
+  }
+
+  #toggle-menu.open {
+    height: 10px;
+    width: 10px;
+    background-color: #dfdfdf; 
+    transform: scale(1); 
+    margin-top: -100px;
+    box-shadow: inset 0 0 0px rgba(0, 0, 0, 0); 
+  }
+  
+  
+  
+  #mobile-menu {
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 0.3s ease-out;
+  }
+  
+  #mobile-menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  #mobile-menu ul li {
+    text-align: center;
+  }
+  
+  #mobile-menu ul li a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+  }
+  
+  .menu-container.open {
+    background-color: #333; /* Set the background color for the open state */
+  }
+  
+  .menu-container.open #mobile-menu {
+    max-height: 200px; /* Adjust the max height based on your content */
+  }
+  

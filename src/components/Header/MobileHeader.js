@@ -1,26 +1,60 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react';
+import './MobileHeader.css';
 import { NavLink } from 'react-router-dom';
-import './Header.css'
 
-function Header() {
+function MobileHeader() {
+  const [isMenuOpen, setIsMenuOpen] = useState(true);
+
+  // Toggle menu on button click
+  const toggleMenu = () => {
+    setIsMenuOpen(!isMenuOpen);
+  };
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (isMenuOpen) {
+        setIsMenuOpen(false);
+      }
+    };
+
+    window.addEventListener('scroll', handleScroll);
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, [isMenuOpen]);
+
   return (
-    <div className='header_outer'>
-    <div className="header_right">
-      <h1>
-  <NavLink to='/'>
-      HOME  ||  </NavLink> 
-      </h1>
-      <h1>
-      <NavLink to='/skills'>
-        SKILLS  ||  </NavLink> 
-      </h1>
-      <h1>
-        <NavLink to='/projects'>
-           PROJECTS</NavLink>
-      </h1>
+    <div className='mobile_header_outer'>
+      <div className={`menu-container ${isMenuOpen ? 'open' : ''}`}>
+
+        <nav id="mobile-menu">
+          <ul>
+            <li>
+              <NavLink to='/' onClick={toggleMenu}>
+                Home
+              </NavLink>
+            </li>
+            <li>
+              <NavLink to='/skills' onClick={toggleMenu}>
+                Skills
+              </NavLink>
+            </li>
+            <li>
+              <NavLink to='/projects' onClick={toggleMenu}>
+                Projects
+              </NavLink>
+            </li>
+          </ul>
+        </nav>
+
+        <button id="toggle-menu" className={isMenuOpen ? 'open' : ''} onClick={toggleMenu}>
+  {isMenuOpen ? '' : 'Open'}
+</button>
+
+      </div>
     </div>
-</div>
-  )
+  );
 }
 
-export default Header
+export default MobileHeader;

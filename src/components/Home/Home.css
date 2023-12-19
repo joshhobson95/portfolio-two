@@ -99,4 +99,30 @@ overflow: hidden;
     z-index: 5; 
     width: 20rem;
     margin-left: -100px;
+    margin-top: -300px;
 }  
+
+
+@media screen and (min-width: 1100px) { 
+    
+    .newlogo{
+        width: 30rem;
+        margin-left: -150px;
+    }  
+
+
+
+}
+
+
+
+@media screen and (min-width: 2000px) { 
+
+    .newlogo{
+        width: 40rem;
+        margin-left: -200px;
+    }  
+
+
+
+}
