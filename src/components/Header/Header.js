@@ -16,7 +16,7 @@ function Header() {
   }, [isMobile]);
 
   return (
-    <div className='header_outer'>
+    <div className='header_outer_main'>
   
 
 

@@ -1,10 +1,11 @@
 .mobile_header_outer {
     position: fixed;
     top: 200px;
-    width: 100%;
+    left: 240px;
+    height: auto;
     display: flex;
     justify-content: flex-end;
-    z-index: 20 !important;
+    z-index: 50 !important;
   }
  
   .menu-container {
@@ -12,21 +13,23 @@
     justify-content: space-between;
     align-items: center;
     padding: 10px;
-    transition: background-color 0.3s ease-out;
+    transition: background-color 1s ease-out;
+    position: relative;
 
   }
   #toggle-menu {
-    background-color: #fff; /* Set the background color for the button */
-    color: #333; /* Set the text color for the button */
+    background-color: #fff; 
+    color: #333; 
     border: none;
-    border-radius: 50%; /* Make the button circular */
-    height: 100px;
-    width: 100px;
+    border-radius: 50%; 
+    height: 70px;
+    width: 70px;
     padding: 10px;
     cursor: pointer;
-    font-size: 14px;
+    font-size: 12pt;
+    font-weight: 500;
     box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5); 
-    transition: background-color 0.3s ease-out, transform 0.3s ease-out; /* Add transition for smoother effect */
+    transition: background-color 2s ease-out, transform 2s ease-out; 
   }
 
   #toggle-menu.open {
@@ -37,6 +40,16 @@
     margin-top: -100px;
     box-shadow: inset 0 0 0px rgba(0, 0, 0, 0); 
   }
+  #toggle-menu.shrink {
+    height: 30px; 
+    width: 30px; 
+    font-size: 5pt;
+    transition: height 0.5s ease-out, width 0.5s ease-out;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  
   
   
   
@@ -64,7 +77,8 @@
   }
   
   .menu-container.open {
-    background-color: #333; /* Set the background color for the open state */
+    background-color: #333; 
+    border-radius: 20px;
   }
   
   .menu-container.open #mobile-menu {

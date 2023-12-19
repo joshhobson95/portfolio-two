@@ -7,7 +7,7 @@ overflow: hidden;
     width: auto;
     z-index: 5 !important;
     text-align: center;
-    font-size: 26pt;
+    font-size: 32pt;
     color: #111;
     line-height: normal;
     -webkit-text-stroke-width: 0.25px;
@@ -109,7 +109,12 @@ overflow: hidden;
         width: 30rem;
         margin-left: -150px;
     }  
-
+    .JoshHobson{
+        font-size: 32pt !important;   
+    }
+    .header_left{
+        font-size: 32pt;
+        }
 
 
 }
@@ -122,6 +127,12 @@ overflow: hidden;
         width: 40rem;
         margin-left: -200px;
     }  
+    .JoshHobson{
+        font-size: 42pt !important;   
+    }
+    .header_left{
+        font-size: 40pt;
+        }
 
 
 
