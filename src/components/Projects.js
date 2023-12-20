@@ -3,6 +3,7 @@ import ParticleBackdrop from './Background/ParticleBackdrop'
 import './Projects.css' 
 import cashHouse from '../assets/cashHouse.jpg'
 import sunie from '../assets/Sunie-stock.jpg'
+import { NavLink } from 'react-router-dom'
 
 function Projects() {
 
@@ -20,6 +21,11 @@ function Projects() {
                             <h1>Jericho Nursery Website Revitalization</h1>         
                     </div>
                 <img alt='' src={cashHouse} className='cashHouse'/>
+                    <div className='porject_button_outer'>
+                      <NavLink to='/jerichonursery'>
+                      <button> View Project Page</button>
+                      </NavLink>
+                    </div>
             </div>
 
             <div className='grid_item_projects'>
