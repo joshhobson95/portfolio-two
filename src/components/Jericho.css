@@ -2,11 +2,10 @@
 background-color: #242424;
 color: white;
 position: relative;
-height: 100vw;
 }
-
 .project_top_half{
     position: relative;
+    height: 100vh;
 }
 .background_image::before {
     background-image: url('../assets/cashHouse.jpg');
@@ -16,9 +15,10 @@ height: 100vw;
     left: 0;
     background-position: center;
     background-size: cover; 
-    opacity: 0.65; 
-    height: 110vh;
+    opacity: 0.92; 
+    height: 100vh;
     width: 100vw;
+    filter: brightness(0.7);
 }
 
 .text_box {
@@ -28,7 +28,7 @@ height: 100vw;
     flex-direction: column;
    z-index: 4 !important;
    padding: 20px;
-   padding-top: 350px;
+   padding-top: 250px;
 }
 .header_box{
     width: 100vw;
@@ -36,8 +36,8 @@ height: 100vw;
     justify-content: center;
 }
 .header_box h1{
-    font-size: 50pt;
-    width: 800px;
+    font-size: 52pt;
+    width: 900px;
     display: flex;
     justify-content: center;
     padding: 100px;   
@@ -45,21 +45,18 @@ height: 100vw;
 }
 .text_box p {
     margin-bottom: 10px;
-    font-size: 18pt;
+    font-size: 21pt;
     font-weight: 700;
-    line-height: 1.75;
-
+    line-height: 1.5;
 }
 .paragraph{
-margin-top: 130px;
+margin-top: 150px;
 }
 
 .short_paragraph{
     width: 42vw;
     margin-top: 50px;
 }
-
-
 
 .button_container{
     display: flex;
@@ -101,3 +98,181 @@ margin-top: 130px;
     z-index: 3;
     margin-right: 100px;
 }
+.project_mid_page{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+   
+}
+.tech_used{
+font-size: 30pt;
+align-self: center;
+margin: 100px;
+color: #DBBA4B;
+font-weight: 700;
+text-decoration: underline;
+}
+
+.tech_used_icons{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 300px;
+}
+.rhomus_container{
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rhombus {
+    display: flex;
+    width: 100vw;
+    height: 200vh; 
+    background-color: #CBCBCB; 
+    transform: skew(0deg, -17deg); 
+    margin-top: 750px; 
+    transform-origin: top left;
+    overflow: hidden;
+  }
+
+  .project_details {
+    position: absolute; 
+    transform: skew(0deg, 17deg); 
+    z-index: 1; 
+    width: 100vw;
+    top: 300px;
+    align-self: center;
+  }
+  .project_details_header {
+    display: flex;
+    justify-content: center;
+
+  }
+  .project_details h1 {
+    font-size: 30pt;
+    text-decoration: underline;
+    color: #95562E;
+  }
+  .jerichologo{
+    position: absolute;
+    height: 10rem;
+    top: -35vh;
+    right: 2vw;
+  }
+  .jh_logo_container{
+    display: flex;
+    height: 1rem;
+  }
+  .jh{
+    position: relative;
+    height: 20rem;
+    top: 300px;
+    left: -150px;
+  }
+
+
+
+
+
+
+.box_one_container{
+    display: flex;
+    justify-content: flex-end;
+    
+}
+  .box_one{
+    background-color: #27373C;
+    box-shadow: 14px 11px 4px 0px rgba(0, 0, 0, 0.25);
+    width: 30rem;
+    height: 60rem;
+    margin-right: 200px;
+    margin-top: -250px;
+  }
+  .mobilenav{
+    position: relative;
+    width: 30rem;
+    height: 60rem;
+    right: 70px;
+    top: 70px;
+  }
+
+
+
+
+  .box_onefive_container{
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+}
+  .box_onefive{
+    position: absolute;
+    background-color: #27373C;
+    box-shadow: 14px 11px 4px 0px rgba(0, 0, 0, 0.25);
+    width: 25rem;
+    height: 60rem;
+    margin-right: 300px;
+    margin-top: 200px;
+  }
+  .adminmobile{
+    position: relative;
+    height: 60rem;
+    right: 70px;
+    top: 70px;
+  }
+
+
+  
+  .box_two_container{
+    display: flex;
+    flex-direction: column;
+}
+  .box_two_h1{
+    position: relative;
+    top: -320px;
+    left: 450px;
+    text-decoration: none !important;
+    color: #27373C !important;
+}   
+  .box_two{
+    background-color: #27373C;
+    box-shadow: 14px 11px 4px 0px rgba(0, 0, 0, 0.25);
+    width: 50rem;
+    height: 45rem;
+    margin: 100px;
+    margin-top: -300px;
+  }
+  .jerichohome{
+    position: relative;
+    width: 60rem;
+    top: 120px;
+    left: 200px;
+  }
+
+
+
+  .box_three_container{
+    display: flex;
+    flex-direction: column;
+}
+  .box_three_h1{
+    position: relative;
+    left: 450px;
+    text-decoration: none !important;
+    color: #27373C !important;
+}   
+  .box_three{
+    background-color: #27373C;
+    box-shadow: 14px 11px 4px 0px rgba(0, 0, 0, 0.25);
+    width: 50rem;
+    height: 45rem;
+    margin: 100px;
+  }
+  .jerichohome{
+    position: relative;
+    width: 60rem;
+    top: 120px;
+    left: 200px;
+  }
