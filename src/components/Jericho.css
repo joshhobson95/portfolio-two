@@ -2,76 +2,102 @@
 background-color: #242424;
 color: white;
 position: relative;
-height: 200vw;
+height: 100vw;
 }
 
 .project_top_half{
     position: relative;
 }
-.cash_house_image{
-    position: relative;
-    height: auto;
-    width: 140vw;
-    opacity: 72%;
-    align-self: center;
-    z-index: 1 !important;
-}
-.text_box {
-    position: relative;
-    width: 65vw;
-    display: flex;
-    flex-direction: column;
-   margin-top: -50vh;
-   z-index: 4 !important;
-   padding: 10px;
-}
-.header_box{
+.background_image::before {
+    background-image: url('../assets/cashHouse.jpg');
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-position: center;
+    background-size: cover; 
+    opacity: 0.65; 
+    height: 110vh;
     width: 100vw;
 }
 
-.text_box h1 {
-    margin-bottom: 10px;
-    font-size: 18pt;
+.text_box {
+    position: relative;
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+   z-index: 4 !important;
+   padding: 20px;
+   padding-top: 350px;
+}
+.header_box{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+.header_box h1{
+    font-size: 50pt;
+    width: 800px;
+    display: flex;
+    justify-content: center;
+    padding: 100px;   
     text-align: center;
 }
-
 .text_box p {
     margin-bottom: 10px;
-    font-size: 8pt;
+    font-size: 18pt;
+    font-weight: 700;
+    line-height: 1.75;
+
 }
+.paragraph{
+margin-top: 130px;
+}
+
+.short_paragraph{
+    width: 42vw;
+    margin-top: 50px;
+}
+
+
 
 .button_container{
     display: flex;
     justify-content: flex-end;
-    margin-top: -10vh;
+    margin-top: -15vh;
     z-index: 5;
     position: relative;
     padding: 10px;
-    padding-right: 15px;
+    padding-right: 100px;
+    margin-right: 100px;
 }
 .button_container button{
     border: none;
     background-color: #242424; 
     color: white;
-    font-size: 9pt;
+    font-size: 22pt;
+    font-weight: 500;
     z-index: 5;
-    height: 2.5rem;
-    width: 6rem;
+    height: 6rem;
+    width: 23rem;
 }
 .date_container{
     display: flex;
     justify-content: flex-end;
-    font-size: 8pt;
+    font-size: 18pt;
+    font-weight: 700;
     padding: 8px;
     position: relative;
     z-index: 4;
+    margin-top: 100px;
 }
 .button_backdrop{
     position: absolute;
     top: 0px;
     right: 25px;
     background-color: #4FA673;
-    height: 2.5rem;
-    width: 6rem;
+    height: 6rem;
+    width: 23rem;
     z-index: 3;
+    margin-right: 100px;
 }
