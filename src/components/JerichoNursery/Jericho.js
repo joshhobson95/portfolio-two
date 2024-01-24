@@ -1,13 +1,15 @@
 import React from 'react'
 import './Jericho.css'
-import JerichoLogo from '../assets/WideLogoGlow-1920x482-1.png'
-import mobilenav from '../assets/JerichoPage/mobile_nav.jpg'
-import jerichohome from '../assets/JerichoPage/screenshot_home.jpg'
-import adminhome from '../assets/JerichoPage/Admin.jpg'
-import adminmobile from '../assets/JerichoPage/Admin2.jpg'
-import jh from '../assets/newJHlogo.png'
-
-
+import jh from '../../assets/Other/newJHlogo.png'
+import JerichoLogo from '../../assets/Other/WideLogoGlow-1920x482-1.png'
+import mobilenav from '../../assets/JerichoPage/mobile_nav.jpg'
+import adminmobile from '../../assets/JerichoPage/Admin2.jpg'
+import adminhome from '../../assets/JerichoPage/Admin.jpg'
+import jerichohome from '../../assets/JerichoPage/screenshot_home.jpg'
+import SeminarIcon from './SeminarIcon'
+import DeliveryVan from './DeliveryVan'
+import Loading from './Loading'
+import icons from '../../assets/JerichoPage/Icons.jpg'
 
 
 
@@ -15,8 +17,12 @@ import jh from '../assets/newJHlogo.png'
 function Jericho() {
 
 //could be a really good place for scrolling text
+//Intro to page animation
 //NEED better HD images of the project
-//MARGINS
+//need button at top
+//mobile and half screens...(start next project page as mobile?)
+//SVG >> switched to hover animation
+
 
   return (
     <div className='jericho_outer'>
@@ -78,7 +84,7 @@ function Jericho() {
 </div>
 
 <div className='jh_logo_container'>
-<img className='jh' src={jh} alt=''/>
+<img className='jh' src={jh}  alt='Josh Hobson Web Development'/>
 </div>
 
 
@@ -88,19 +94,27 @@ function Jericho() {
 <div className='rhombus'>
 
   <div className='project_details'>
-    <img className='jerichologo' src={JerichoLogo} />
+    <img className='jerichologo' src={JerichoLogo} alt='Jericho Nursery Logo' />
 
     <div className='project_details_header'>
     <h1>Key Features</h1>
     </div>
 
 <div className='box_one_container'>
+<h4 className='mobilenavbar'>Mobile NavBar</h4>
+<p className='mnav_p'>
+Adjusted to use the same icons, with the convienence of usability with one thumb...
+</p>
     <div className='box_one'>
       <img className='mobilenav' src={mobilenav}  alt=''/>
   </div>
     </div>
 
     <div className='box_onefive_container'>
+    <h4 className='mobileadmin'>Mobile Accessibility to Backend</h4>
+    <p className='madmin_p'>
+Accompanying the Custom Backend, of course we added Mobile Access to our backend system
+</p>
     <div className='box_onefive'>
       <img className='adminmobile' src={adminmobile}  alt=''/>
   </div>
@@ -108,6 +122,7 @@ function Jericho() {
 
     <div className='box_two_container'>
       <h1 className='box_two_h1'>NavBar</h1>
+      <p className='navbar_p'> Crafted entirely from the ground up, our bespoke desktop navigation bar is a visual symphony that redefines user interaction. Thoughtfully designed icons, carefully aligned with each category, and seamlessly blending with the brand's vibrant color palette, this navbar is not just functional—it's a work of art.</p>
     <div className='box_two'>
     <img className='jerichohome' src={jerichohome}  alt=''/>
   </div>
@@ -117,19 +132,45 @@ function Jericho() {
 
     <div className='box_three_container'>
     <h1 className='box_three_h1'>Custom Backend</h1>
+    <p className='custom_backend_p'>
+      Jericho Nursery also requested a custom backend so that they could completely run their blogs and images in house. With a suprising simplicity, all blogs and photos are stored on a private Jericho database and served with a custom NodeJS backend for lightning fast loading times and no confusing Wordpress Plugins.
+    </p>
     <div className='box_three'>
     <img className='jerichohome' src={adminhome}  alt=''/>
   </div>
     </div>
-
-
-
-
-
-
   </div>
   </div>
 
+  <div className='jh2_logo_container'>
+  <img className='jh2' src={jh}  alt='Josh Hobson Web Development'/>
+    </div>
+
+
+<div className='project_details_header2'>
+<h2 className='more_details'>More Details</h2>
+</div>
+
+  <div className='project_lower_page'>
+
+
+<div className='project_lower_left' >
+  <h3>Custom Assets</h3>
+
+<div className='icons_grid'>
+  <div className='seminar_icon'>
+  <SeminarIcon />
+  </div>
+  <div className='deliveryvan_icon'>
+  <DeliveryVan />
+  </div>
+  <div className='loading_icon'>
+  <Loading />
+  </div>
+
+  <img className='jericho_icons' src={icons} alt='jericho_icons'/>
+
+</div>
 
 
 
@@ -137,6 +178,11 @@ function Jericho() {
 
 
 
+<div className='project_lower_right'>
+  <h3>Honorable Mentions</h3>
+  <p className='lower_right_p'>
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  </p>
 
 </div>
 
@@ -147,12 +193,11 @@ function Jericho() {
 
 
 
-
-
-
-
+</div>
+</div>
+</div>
     </div>
   )
 }
 
-export default Jericho
+export default Jericho;

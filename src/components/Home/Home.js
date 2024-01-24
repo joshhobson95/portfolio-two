@@ -2,7 +2,7 @@ import React, { useRef } from 'react';
 import ParticleBackdrop from '../Background/ParticleBackdrop';
 import './Home.css'
 import Modal from './Modal';
-import newlogo from '../../assets/newJHlogo.png'
+import newlogo from '../../assets/Other/newJHlogo.png'
 
 
 function Home() {

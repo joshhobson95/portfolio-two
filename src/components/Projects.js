@@ -1,8 +1,8 @@
 import React from 'react'
 import ParticleBackdrop from './Background/ParticleBackdrop'
 import './Projects.css' 
-import cashHouse from '../assets/cashHouse.jpg'
-import sunie from '../assets/Sunie-stock.jpg'
+import cashHouse from '../assets/Other/cashHouse.jpg'
+import sunie from '../assets/Other/Sunie-stock.jpg'
 import { NavLink } from 'react-router-dom'
 
 function Projects() {

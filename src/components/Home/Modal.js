@@ -1,6 +1,6 @@
 import React from 'react';
 import './Modal.css';
-import logo from '../../assets/logo.png'
+import logo from '../../assets/Other/logo.png'
 function Modal() {
   return (
     <div className='modal_outer'>
