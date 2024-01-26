@@ -1,5 +1,6 @@
 .projects_and_partcile{
 display: block;
+max-width: 100vw;
 }
 .projects_outer{
     display: flex;

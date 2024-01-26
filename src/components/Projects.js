@@ -21,7 +21,7 @@ function Projects() {
                             <h1>Jericho Nursery Website Revitalization</h1>         
                     </div>
                 <img alt='' src={cashHouse} className='cashHouse'/>
-                    <div className='porject_button_outer'>
+                    <div className='project_button_outer'>
                       <NavLink to='/jerichonursery'>
                       <button> View Project Page</button>
                       </NavLink>
@@ -35,6 +35,9 @@ function Projects() {
                 <img alt='' src={sunie} className='sunie'/>
             </div>
             <div className='grid_item_projects'>
+            <NavLink to='/hellosunie'>
+                      <button> View Project Page</button>
+               </NavLink>
 
             </div>
             <div className='grid_item_projects'>

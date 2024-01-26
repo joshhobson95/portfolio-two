@@ -42,8 +42,8 @@ table {
 }
 body {
 	margin: 0;
-	overflow-x: hidden;
+	overflow-x: hidden !important;
   }
   .app_wrapper {
-	overflow-x: hidden;
+	overflow-x: hidden !important;
   }

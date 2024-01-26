@@ -1,0 +1,257 @@
+body {
+    margin: 0;
+    overflow-x: hidden; 
+    box-sizing: border-box;
+    max-width: 100vw;
+  }
+
+.sunie_background_image::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url('../../assets/Other/Sunie-stock.jpg');
+    background-position: center;
+    background-size: cover;
+    opacity: 0.92;
+    height: 100vh;
+    width: 100vw;
+    filter: brightness(0.65);
+    z-index: 1;
+}
+.project_outer_shell{
+    background-color: #242424;
+    width: 100%;
+    max-width: 100%; 
+    overflow: hidden; 
+    height: 320vh;
+}
+
+.project_top_text{
+    margin-top: 12.5rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    z-index: 4 !important;
+}
+.project_top_text h1{
+font-size: 2rem;
+text-align: center;
+}
+.project_top_text p{
+margin: 1rem;
+padding-top: 4rem;
+}
+
+.sunie_button_container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    z-index: 4;
+    width: 100vw;
+    padding-top: 2rem;
+    overflow: hidden;
+}
+.sunie_button_container button{
+    border: none;
+    background-color: #242424; 
+    color: white;
+    font-size: 14pt;
+    font-weight: 500;
+    z-index: 5;
+    height: 3.5rem;
+    width: 10rem;
+}
+.sunie_button_backdrop{
+    position: absolute;
+    top: 24px;
+    right: 29px;
+    background-color: #001A48;
+    height: 3.5rem;
+    width: 10rem;
+    z-index: 3;
+    margin-right: 100px;
+}
+.sunie_date_container{
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    color: white;
+    z-index: 3;
+    padding-right: 20px;
+}
+.sunie_project_mid_page{
+    margin-top: 2rem;
+    height: 100vh;
+    width: 100vw;
+}
+.sunie_tech_used{
+display: flex;
+justify-content: center;
+
+}
+.sunie_project_mid_page h1{
+    align-self: center;
+    color: #FE960C;
+    text-decoration: underline;
+}
+.tech_icons{
+    display: flex;
+    justify-content: space-evenly;
+    width: 90vw;
+    margin: 1rem;
+    padding-top: 2rem;
+
+}
+.tech_icons img{
+    height: 3.5rem;
+    width: 3.5rem;
+}
+
+.key_features{
+    width: 100vw;
+    position: relative;
+    z-index: 5;
+    margin-top: 20vh;
+}
+
+.key_features h1{
+    display: flex;
+    justify-content: center;
+    color: #001A48;
+}
+
+.key_grid{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.key_grid_one{
+height: 45vh;
+margin-top: 10vh;
+}
+.key_grid_one_inner{
+    display: flex;
+}
+.inner_square{
+    background-color: #004d65;
+    height: 150px;
+    width: 140px;
+   margin-left: 40px;
+}
+.admincal{
+    position: relative;
+    left: -30px;
+    top: 10px;
+    width: 40vw;
+}
+
+.inner_square2{
+    background-color: #004d65;
+    height: 220px;
+   margin-left: 30px;
+   margin-top: 5vh;
+}
+.calpop{
+    height: 30vh;
+    position: relative;
+    left: -20px;
+    top: -10px;
+}
+
+
+
+.key_grid_two{
+height: 35vh;
+position: relative;
+z-index: 6;
+}
+.key_grid_two_inner{
+    display: flex;
+}
+.inner_square3{
+    background-color: #004d65;
+    height: 320px;
+    width: 250px;
+    position: relative;
+
+}
+.inner_square4{
+    background-color: #004d65;
+    height: 220px;
+    width: 250px;
+   margin-left: 10px;
+   margin-top: 1vh;
+}
+.metabox{
+    width: 40vw;
+}
+.metafull{
+    width: 60vw;
+}
+
+
+
+
+
+
+
+
+
+
+.sunie_project_lower_page{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    z-index: 5;
+    margin-top: 50vh;
+}
+.sunie_project_lower_page h1{
+    align-self: center;
+    color: #FE960C;
+}
+
+.splp_2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-top: 2rem;
+}
+.splp_2 h3{
+    display: flex;
+    justify-content: center;
+}
+.svg_container{
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+    height: 100vh;
+}
+.top_slant{
+    position: absolute;
+    z-index: 2;
+}
+.filler{
+    position: absolute;
+    top: 610px;
+    background-color: #cbcbcb;
+    height: 250px; 
+    width: 100%;
+    z-index: 2 !important;
+}
+
+
+.svg_container2{
+    position: absolute;
+    z-index: 3 !important;
+    width: 100%;
+    height: 100vh;
+}
+.bottom_slant{
+    position: absolute;
+    z-index: 3 !important;
+
+}
