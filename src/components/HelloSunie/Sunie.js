@@ -3,7 +3,7 @@ import './Sunie.css'
 import services from '../../assets/HelloSunie/Services.jpg'
 import calpop from '../../assets/HelloSunie/Calendar-Popout.jpg'
 import metabox from '../../assets/HelloSunie/mobile_metabox.jpg'
-import metafull from '../../assets/HelloSunie/metafull.jpg'
+import servicedetails from '../../assets/HelloSunie/service-details.jpg'
 
 function Sunie() {
   return (
@@ -95,9 +95,9 @@ function Sunie() {
 <div className='inner_square3'>
 <img className='metabox' src={metabox} alt=''/>
 </div>
-{/* <div className='inner_square4'>
-<img className='metafull' src={metafull} alt=''/>
-</div> */}
+<div className='inner_square4'>
+<img className='servicedetails' src={servicedetails} alt=''/>
+</div>
 
 </div>
           </div>
@@ -133,14 +133,14 @@ function Sunie() {
 <h1>Design Elements</h1>
 
 <div className='splp_2'>
-<div>
+<div className='splp_inner_1'>
   <h3>Advanced Custom Fields</h3>
   <p>
   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
   </p>
 </div>
 
-<div>
+<div className='splp_inner_2'>
   <h3>Custom Plugins</h3>
   <p>
   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
