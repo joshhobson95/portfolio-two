@@ -24,7 +24,7 @@ body {
     width: 100%;
     max-width: 100%; 
     overflow: hidden; 
-    height: 320vh;
+    height: auto;
 }
 
 .project_top_text{
@@ -139,7 +139,7 @@ margin-top: 10vh;
     background-color: #004d65;
     height: 150px;
     width: 140px;
-   margin-left: 40px;
+   margin-left: 35px;
 }
 .admincal{
     position: relative;
@@ -160,7 +160,6 @@ margin-top: 10vh;
     left: -20px;
     top: -10px;
 }
-
 
 
 .key_grid_two{
@@ -202,12 +201,6 @@ z-index: 6;
 
 
 
-
-
-
-
-
-
 .sunie_project_lower_page{
     display: flex;
     flex-direction: column;
@@ -219,6 +212,7 @@ z-index: 6;
 .sunie_project_lower_page h1{
     align-self: center;
     color: #FE960C;
+    text-decoration: underline;
 }
 
 .splp_2{
@@ -233,13 +227,6 @@ z-index: 6;
 .splp_inner_1{
 margin-bottom: 5vh;
 }
-
-
-
-
-
-
-
 
 
 
@@ -278,5 +265,96 @@ margin-bottom: 5vh;
 .bottom_slant{
     position: absolute;
     z-index: 3 !important;
+}
+
+@media screen and (min-height: 701px) {
+    .sunie_tech_used {
+        margin-top: 7rem;
+    }
 
 }
+@media screen and (min-height: 801px) {
+    .sunie_tech_used {
+        margin-top: 14rem;
+    }
+    .key_features{
+        margin-top: 28vh;
+    }
+    .svg_container2{
+        height: 79vh;
+    }
+}
+/* @media screen and (min-height: 901px) {
+.filler{
+    height: 100vh;
+}
+.sunie_tech_used {
+    margin-top: 20rem;
+}
+.key_features {
+    margin-top: 20vh;
+}
+} */
+@media screen and (min-height: 1001px) {
+.sunie_background_image::before {
+height: 56vh;
+}
+.sunie_tech_used{
+    margin-top: 10rem;
+}
+.sunie_button_backdrop{
+    right: 145px;
+}
+.filler{
+    height: 100vh;
+}
+
+}
+
+
+/* FUCK THESE SVGS!! */
+
+
+@media screen and (min-width: 768px)  {
+.svg_container {
+    height: 100vh;
+}
+.sunie_button_backdrop {
+    right: 197px;
+}
+.metabox {
+    width: 30vw;
+}
+.inner_square3 {
+    background-color: #004d65;
+    height: 610px;
+    width: 30vw;
+}
+.key_grid{
+    margin-left: 1rem;
+}
+}
+
+@media screen and (min-width: 830px)  {
+    .svg_container {
+        height: 116vh;
+    }
+}
+
+@media screen and (min-width: 950px)  {
+    .svg_container {
+        height: 150vh;
+    }
+}
+@media screen and (min-width: 1350px)  {
+    .svg_container {
+        height: 180vh;
+        width: 110vw;
+    }
+}
+@media screen and (min-width: 1500px)  {
+    .svg_container {
+        height: 185vh;
+    }
+}
+  
