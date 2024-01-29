@@ -48,31 +48,14 @@ function Sunie() {
           <img className='wp' src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg'  alt=''/>
         </div>
 
-<div className='svg_container'>
-        <svg className='top_slant' width="100%" height="100%" viewBox="0 0 1440 2093" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <g filter="url(#filter0_i_15_419)">
-    <path d="M0 253.885L1440 0V253.885V1993H0V253.885Z" fill="#CBCBCB"/>
-  </g>
-  <defs>
-    <filter id="filter0_i_15_419" x="0" y="0" width="1440" height="1997" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
-      <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
-      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
-      <feOffset dy="4"/>
-      <feGaussianBlur stdDeviation="2"/>
-      <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
-      <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
-      <feBlend mode="normal" in2="shape" result="effect1_innerShadow_15_419"/>
-    </filter>
-  </defs>
-</svg>
-<div className='filler'></div>
-</div>
+
         <div className='key_features'>
           <h1>Key Features</h1>
 
 
           <div className='key_grid'>
+
+          <div className='key_grid_background'></div>
 
           <div className='key_grid_one'>
             <h2>HTML Buildout</h2>
@@ -99,6 +82,11 @@ function Sunie() {
 <img className='servicedetails' src={servicedetails} alt=''/>
 </div>
 
+
+
+
+
+
 </div>
           </div>
 
@@ -108,26 +96,7 @@ function Sunie() {
 
 
 
-  <div className='svg_container2'>
-    {/* WE ARE DONE WITH THESE */}
-      <svg  className='bottom_slant' width="100%" height="100%" viewBox="0 0 1440 1006" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <g filter="url(#filter0_i_15_508)">
-    <path d="M-4 322.548L1444 0V322.548V2532H-4V322.548Z" fill="#242424"/>
-  </g>
-  <defs>
-    <filter id="filter0_i_15_508" x="-4" y="0" width="1448" height="2536" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
-      <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
-      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
-      <feOffset dy="4"/>
-      <feGaussianBlur stdDeviation="2"/>
-      <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
-      <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
-      <feBlend mode="normal" in2="shape" result="effect1_innerShadow_15_508"/>
-    </filter>
-  </defs>
-</svg>
-</div>
+
 
 <div className='sunie_project_lower_page'>
 

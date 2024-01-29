@@ -44,7 +44,7 @@ margin: 1rem;
 padding-top: 4rem;
 }
 
-.sunie_button_container{
+.sunie_button_container {
     position: relative;
     display: flex;
     justify-content: center;
@@ -53,7 +53,8 @@ padding-top: 4rem;
     padding-top: 2rem;
     overflow: hidden;
 }
-.sunie_button_container button{
+
+.sunie_button_container button {
     border: none;
     background-color: #242424; 
     color: white;
@@ -63,15 +64,16 @@ padding-top: 4rem;
     height: 3.5rem;
     width: 10rem;
 }
-.sunie_button_backdrop{
+
+.sunie_button_backdrop {
     position: absolute;
-    top: 24px;
-    right: 29px;
+    top: 53%; 
+    left: 47%; 
     background-color: #001A48;
     height: 3.5rem;
     width: 10rem;
     z-index: 3;
-    margin-right: 100px;
+    transform: translate(-50%, -50%); 
 }
 .sunie_date_container{
     position: relative;
@@ -85,21 +87,25 @@ padding-top: 4rem;
     margin-top: 2rem;
     height: 100vh;
     width: 100vw;
+    background-color: #242424;
+    position: relative;
+    z-index: 1;
 }
 .sunie_tech_used{
 display: flex;
 justify-content: center;
-
 }
+
 .sunie_project_mid_page h1{
     align-self: center;
     color: #FE960C;
     text-decoration: underline;
+    margin-top: 2rem;
 }
 .tech_icons{
     display: flex;
-    justify-content: space-evenly;
-    width: 90vw;
+    justify-content: space-between;
+    width: 98vw;
     margin: 1rem;
     padding-top: 2rem;
 
@@ -135,12 +141,8 @@ margin-top: 10vh;
 .key_grid_one_inner{
     display: flex;
 }
-.inner_square{
-    background-color: #004d65;
-    height: 150px;
-    width: 140px;
-   margin-left: 35px;
-}
+
+
 .admincal{
     position: relative;
     left: -30px;
@@ -148,19 +150,11 @@ margin-top: 10vh;
     width: 40vw;
 }
 
-.inner_square2{
-    background-color: #004d65;
-    height: 220px;
-   margin-left: 30px;
-   margin-top: 5vh;
-}
 .calpop{
     height: 30vh;
     position: relative;
-    left: -20px;
-    top: -10px;
-}
 
+}
 
 .key_grid_two{
 height: 35vh;
@@ -170,27 +164,14 @@ z-index: 6;
 .key_grid_two_inner{
     display: flex;
 }
-.inner_square3{
-    background-color: #004d65;
-    height: 410px;
-    width: 42vw;
-    position: relative;
-    margin-left: 20px;
-    margin-top: 1vh;
-}
+
 .metabox{
     position: relative;
     left: 20px;
     top: 10px;
     width: 40vw;
 }
-.inner_square4{
-    background-color: #004d65;
-    height: 140px;
-    width: 160px;
-    margin-left: 9.5vw;
 
-}
 .servicedetails{
     position: relative;
     left: -20px;
@@ -207,7 +188,7 @@ z-index: 6;
     justify-content: center;
     position: relative;
     z-index: 5;
-    margin-top: 65vh;
+    margin-top: 68vh;
 }
 .sunie_project_lower_page h1{
     align-self: center;
@@ -227,10 +208,6 @@ z-index: 6;
 .splp_inner_1{
 margin-bottom: 5vh;
 }
-
-
-
-
 
 .splp_2 h3{
     display: flex;
@@ -255,7 +232,6 @@ margin-bottom: 5vh;
     z-index: 2 !important;
 }
 
-
 .svg_container2{
     position: absolute;
     z-index: 3 !important;
@@ -267,94 +243,202 @@ margin-bottom: 5vh;
     z-index: 3 !important;
 }
 
-@media screen and (min-height: 701px) {
-    .sunie_tech_used {
-        margin-top: 7rem;
-    }
-
-}
-@media screen and (min-height: 801px) {
-    .sunie_tech_used {
-        margin-top: 14rem;
-    }
-    .key_features{
-        margin-top: 28vh;
-    }
-    .svg_container2{
-        height: 79vh;
-    }
-}
-/* @media screen and (min-height: 901px) {
-.filler{
-    height: 100vh;
-}
-.sunie_tech_used {
-    margin-top: 20rem;
-}
 .key_features {
-    margin-top: 20vh;
-}
-} */
-@media screen and (min-height: 1001px) {
-.sunie_background_image::before {
-height: 56vh;
-}
-.sunie_tech_used{
-    margin-top: 10rem;
-}
-.sunie_button_backdrop{
-    right: 145px;
-}
-.filler{
-    height: 100vh;
-}
+    position: relative;
+  }
+  .key_grid_background {
+    position: absolute;
+    top: -20px;
+    left: 0;
+    width: 100%;
+    height: 50rem;
+    background-color: #cbcbcb;
+    z-index: -1;
+    transform: skew(0deg, -17deg); 
+  }
 
-}
-
-
-/* FUCK THESE SVGS!! */
-
-
-@media screen and (min-width: 768px)  {
-.svg_container {
-    height: 100vh;
-}
-.sunie_button_backdrop {
-    right: 197px;
-}
-.metabox {
-    width: 30vw;
-}
-.inner_square3 {
-    background-color: #004d65;
-    height: 610px;
-    width: 30vw;
-}
-.key_grid{
-    margin-left: 1rem;
-}
-}
-
-@media screen and (min-width: 830px)  {
-    .svg_container {
-        height: 116vh;
-    }
-}
-
-@media screen and (min-width: 950px)  {
-    .svg_container {
-        height: 150vh;
-    }
-}
-@media screen and (min-width: 1350px)  {
-    .svg_container {
-        height: 180vh;
-        width: 110vw;
-    }
-}
-@media screen and (min-width: 1500px)  {
-    .svg_container {
-        height: 185vh;
-    }
-}
   
+@media screen and (min-width: 750px) {
+    .project_top_text h1 {
+        font-size: 4rem;
+    }
+    .project_top_text p {
+        margin: 1rem;
+        padding-top: 4rem;
+        font-size: 16pt;
+    }
+    .sunie_date_container {
+        font-size: 14pt;
+    }
+    .tech_icons{
+        padding-top: 4rem;
+    }
+    .tech_icons img {
+        height: 5.5rem;
+        width: 5.5rem;
+    }
+    .servicedetails {
+        width: 51vw;
+        left: -58px;
+    }
+    .metabox {
+        width: 30vw;
+    }
+    .admincal {
+        left: -93px;
+        width: 50vw;
+    }
+
+    .sunie_project_mid_page h1{
+        font-size: 1.5rem;
+    }
+    .key_grid {
+        margin-left: 1rem;
+    }
+    .key_grid_background {
+        top: -42px;
+        height: 73rem;
+    }
+    .key_grid h2{
+        font-size: 1.25rem;
+    }
+
+    .sunie_button_container button {
+        font-size: 18pt;
+        height: 4.5rem;
+        width: 12.5rem;
+    }
+    .sunie_button_backdrop {
+        height: 4.5rem;
+        width: 12.5rem;
+    }
+    .sunie_project_lower_page h1 {
+        font-size: 1.5rem;
+    }
+    .splp_2 h3 {
+    font-size: 1.25rem;
+    }
+    .splp_2 p {
+        font-size: 16pt;
+    }
+}
+
+@media screen and (min-width: 1030px) {
+    .project_top_text h1 {
+        font-size: 5rem;
+    }
+    .tech_icons img {
+        height: 7.5rem;
+        width: 7.5rem;
+    }
+    .admincal{
+        width: 43vw;
+    }
+
+}
+
+@media screen and (min-width: 1250px) {
+    .project_top_text h1{
+        font-size: 6rem;
+    }
+    .project_top_text p {
+        font-size: 18pt;
+    }
+    .sunie_button_container button {
+        font-size: 20pt;
+        height: 5.5rem;
+        width: 14.5rem;
+    }
+    .sunie_button_backdrop {
+        height: 5.5rem;
+        width: 14.5rem;
+    }
+    .calpop {
+        height: 54vh;
+    }
+    .key_grid_one {
+        margin-bottom: 21vh;
+    }
+    .sunie_project_mid_page {
+        height: 140vh;
+    }
+    .metabox {
+        width: 20vw;
+        left: 30px;
+    }
+
+ 
+    .key_grid h2{
+        font-size: 1.5rem;
+    }
+    .key_grid_background {
+        top: -100px;
+        height: 98rem;
+    }
+    .tech_icons{
+        padding-bottom: 9rem;
+    }
+    .sunie_project_lower_page {
+    padding-bottom: 10vh;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    }
+}
+
+
+
+@media screen and (min-width: 1700px) {
+    .project_top_text h1 {
+        margin-top: 8rem;
+        margin-bottom: 6rem;
+        font-size: 9rem;
+    }
+    .project_top_text p {
+        margin: 2rem 9rem;
+        font-size: 20pt;
+    }
+    .sunie_button_backdrop {
+        top: 55%;
+        left: 49%;
+    }
+    .sunie_project_mid_page h1 {
+        font-size: 2rem;
+    }
+    .tech_icons {
+        display: flex;
+        justify-content: space-between;
+        width: 90vw;
+        padding-left: 5vw;
+        align-self: center;
+    }
+    .tech_icons {
+        padding-bottom: 20rem;
+    }
+
+    .key_grid_one {
+        margin-bottom: 40vh;
+    }
+
+    .key_grid_background {
+        height: 141rem;
+        top: -197px;
+    }
+    .sunie_project_lower_page {
+        margin-top: 130vh;
+    }
+
+}
+
+
+@media screen and (min-width: 2050px) {
+
+.metabox {
+    width: 19vw;
+    left: 50px;
+}
+.tech_icons img {
+    height: 10rem;
+    width: 10rem;
+}
+
+}

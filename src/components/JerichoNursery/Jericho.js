@@ -24,12 +24,6 @@ function Jericho() {
 //SVG >> switched to hover animation
 
 
-//ALMOST done with -=-=- Jericho Page
-//Halfscreen done - make a mobile for Jericho and Start new with Sunie, simpler Grid design anyway! perfect place to move forward :)
-//Then next week finish email function, animations and more
-
-
-
 
 
 
