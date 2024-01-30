@@ -85,7 +85,7 @@ padding-top: 4rem;
 }
 .sunie_project_mid_page{
     margin-top: 2rem;
-    height: 100vh;
+    height: auto;
     width: 100vw;
     background-color: #242424;
     position: relative;
@@ -104,11 +104,9 @@ justify-content: center;
 }
 .tech_icons{
     display: flex;
-    justify-content: space-between;
-    width: 98vw;
-    margin: 1rem;
+    justify-content: space-evenly;
+    width: 100vw;
     padding-top: 2rem;
-
 }
 .tech_icons img{
     height: 3.5rem;
@@ -119,7 +117,7 @@ justify-content: center;
     width: 100vw;
     position: relative;
     z-index: 5;
-    margin-top: 20vh;
+    margin-top: 18vh;
 }
 
 .key_features h1{
@@ -135,60 +133,28 @@ justify-content: center;
 }
 
 .key_grid_one{
-height: 45vh;
+
 margin-top: 10vh;
 }
 .key_grid_one_inner{
     display: flex;
 }
 
-
-.admincal{
-    position: relative;
-    left: -30px;
-    top: 10px;
-    width: 40vw;
-}
-
-.calpop{
-    height: 30vh;
-    position: relative;
-
-}
-
 .key_grid_two{
-height: 35vh;
 position: relative;
 z-index: 6;
 }
-.key_grid_two_inner{
-    display: flex;
-}
-
-.metabox{
-    position: relative;
-    left: 20px;
-    top: 10px;
-    width: 40vw;
-}
-
-.servicedetails{
-    position: relative;
-    left: -20px;
-    top: -10px;
-    width: 40vw;
-}
 
 
 
-
-.sunie_project_lower_page{
+.sunie_project_lower_page {
     display: flex;
     flex-direction: column;
     justify-content: center;
     position: relative;
     z-index: 5;
-    margin-top: 68vh;
+    margin-top: 20%; 
+    padding-bottom: 10vh;
 }
 .sunie_project_lower_page h1{
     align-self: center;
@@ -213,24 +179,6 @@ margin-bottom: 5vh;
     display: flex;
     justify-content: center;
 }
-.svg_container{
-    position: absolute;
-    z-index: 2;
-    width: 100%;
-    height: 100vh;
-}
-.top_slant{
-    position: absolute;
-    z-index: 2;
-}
-.filler{
-    position: absolute;
-    top: 610px;
-    background-color: #cbcbcb;
-    height: 400px; 
-    width: 100%;
-    z-index: 2 !important;
-}
 
 .svg_container2{
     position: absolute;
@@ -238,10 +186,7 @@ margin-bottom: 5vh;
     width: 100%;
     height: 120vh;
 }
-.bottom_slant{
-    position: absolute;
-    z-index: 3 !important;
-}
+
 
 .key_features {
     position: relative;
@@ -251,11 +196,45 @@ margin-bottom: 5vh;
     top: -20px;
     left: 0;
     width: 100%;
-    height: 50rem;
+    height: 69rem;
     background-color: #cbcbcb;
     z-index: -1;
     transform: skew(0deg, -17deg); 
   }
+
+
+.mainpage{
+    width: 80vw;
+    margin: 1rem;
+}
+.bigicons{
+    width: 80vw;
+    margin: 1rem;
+    padding-left: 3rem;
+}
+.inner_square{
+    height: auto;
+}
+.emailstuff{
+    width: 90vw;
+    margin: 0.5rem;
+}
+.metabox{
+    width: 30vw;
+    margin: 1rem;
+}
+.eventdetails{
+height: 30vh;
+}
+.inner_square2{
+    display: flex;
+}
+.graphs{
+    width: 80vw;
+    margin: 1rem;
+}
+
+
 
   
 @media screen and (min-width: 750px) {
@@ -277,18 +256,6 @@ margin-bottom: 5vh;
         height: 5.5rem;
         width: 5.5rem;
     }
-    .servicedetails {
-        width: 51vw;
-        left: -58px;
-    }
-    .metabox {
-        width: 30vw;
-    }
-    .admincal {
-        left: -93px;
-        width: 50vw;
-    }
-
     .sunie_project_mid_page h1{
         font-size: 1.5rem;
     }
@@ -297,7 +264,7 @@ margin-bottom: 5vh;
     }
     .key_grid_background {
         top: -42px;
-        height: 73rem;
+        height: 125rem;
     }
     .key_grid h2{
         font-size: 1.25rem;
@@ -312,6 +279,7 @@ margin-bottom: 5vh;
         height: 4.5rem;
         width: 12.5rem;
     }
+ 
     .sunie_project_lower_page h1 {
         font-size: 1.5rem;
     }
@@ -323,7 +291,7 @@ margin-bottom: 5vh;
     }
 }
 
-@media screen and (min-width: 1030px) {
+@media screen and (min-width: 990px) {
     .project_top_text h1 {
         font-size: 5rem;
     }
@@ -331,9 +299,15 @@ margin-bottom: 5vh;
         height: 7.5rem;
         width: 7.5rem;
     }
-    .admincal{
-        width: 43vw;
+
+    .key_grid_background {
+        height: 175rem;
     }
+    .eventdetails {
+        height: 45vh;
+        margin: 7rem;
+    }
+
 
 }
 
@@ -353,92 +327,67 @@ margin-bottom: 5vh;
         height: 5.5rem;
         width: 14.5rem;
     }
-    .calpop {
-        height: 54vh;
-    }
+
     .key_grid_one {
         margin-bottom: 21vh;
     }
-    .sunie_project_mid_page {
-        height: 140vh;
-    }
-    .metabox {
-        width: 20vw;
-        left: 30px;
-    }
 
- 
     .key_grid h2{
         font-size: 1.5rem;
     }
     .key_grid_background {
         top: -100px;
-        height: 98rem;
+        height: 220rem;
     }
     .tech_icons{
         padding-bottom: 9rem;
     }
     .sunie_project_lower_page {
-    padding-bottom: 10vh;
     margin-left: 5rem;
     margin-right: 5rem;
     }
 }
 
+@media screen and (min-width: 1500px) {
+    .mainpage {
+        width: 47vw;
+        margin: 1rem;
+    }
+    .bigicons {
+        width: 49vw;
+        margin: 1rem;
+        padding-left: 44rem;
+    }
 
-
-@media screen and (min-width: 1700px) {
-    .project_top_text h1 {
-        margin-top: 8rem;
-        margin-bottom: 6rem;
-        font-size: 9rem;
+    .emailstuff {
+        height: 50vh;
+        width: auto;
+        margin: 0.5rem;
     }
-    .project_top_text p {
-        margin: 2rem 9rem;
-        font-size: 20pt;
-    }
-    .sunie_button_backdrop {
-        top: 55%;
-        left: 49%;
-    }
-    .sunie_project_mid_page h1 {
-        font-size: 2rem;
-    }
-    .tech_icons {
+    .inner_square2{
         display: flex;
-        justify-content: space-between;
-        width: 90vw;
-        padding-left: 5vw;
-        align-self: center;
+        justify-content: space-evenly;
     }
-    .tech_icons {
-        padding-bottom: 20rem;
+    .metabox {
+        width: 19vw;
+        margin: 1rem;
     }
-
-    .key_grid_one {
-        margin-bottom: 40vh;
+    .eventdetails {
+        height: 45vh;
+        margin: 0rem;
     }
-
     .key_grid_background {
-        height: 141rem;
-        top: -197px;
+
+
     }
-    .sunie_project_lower_page {
-        margin-top: 130vh;
+    .key_grid h2 {
+       margin-top: 100px;
     }
 
+
+
 }
 
 
-@media screen and (min-width: 2050px) {
 
-.metabox {
-    width: 19vw;
-    left: 50px;
-}
-.tech_icons img {
-    height: 10rem;
-    width: 10rem;
-}
 
-}

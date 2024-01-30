@@ -1,9 +1,12 @@
 import React from 'react'
 import './Sunie.css'
-import services from '../../assets/HelloSunie/Services.jpg'
-import calpop from '../../assets/HelloSunie/Calendar-Popout.jpg'
-import metabox from '../../assets/HelloSunie/mobile_metabox.jpg'
-import servicedetails from '../../assets/HelloSunie/service-details.jpg'
+import bigicons from '../../assets/HelloSunie/bigicons.png'
+import emailstuff from '../../assets/HelloSunie/emailstuff.png'
+import eventdetails from '../../assets/HelloSunie/EventDetials.png'
+import graphs from '../../assets/HelloSunie/graphs.png'
+import mainpage from '../../assets/HelloSunie/mainpage.png'
+import metabox from '../../assets/HelloSunie/metabox.png'
+
 
 function Sunie() {
   return (
@@ -60,39 +63,33 @@ function Sunie() {
           <div className='key_grid_one'>
             <h2>HTML Buildout</h2>
           <div className='key_grid_one_inner'>
-
-              <div className='inner_square2'>
-              <img className='calpop' src={calpop} alt=''/>
-              </div>
               <div className='inner_square'>
-              <img className='admincal' src={services} alt=''/>
+              <img className='mainpage' src={mainpage} alt=''/>
+              <img className='bigicons' src={bigicons} alt=''/>
+
               </div>
+      
 
             </div>
       </div>
 
-          <div className='key_grid_two'>
-            <h2>MetaBoxes</h2>
-<div className='key_grid_two_inner'>
+                    <div className='key_grid_two'>
+                      <h2>Custom Plugin Solutions</h2>
+          <div className='key_grid_two_inner'>
 
-<div className='inner_square3'>
-<img className='metabox' src={metabox} alt=''/>
-</div>
-<div className='inner_square4'>
-<img className='servicedetails' src={servicedetails} alt=''/>
-</div>
+          <img className='emailstuff' src={emailstuff} alt=''/>
+          <div className='inner_square2'>
+          <img className='metabox' src={metabox} alt=''/>
+          <img className='eventdetails' src={eventdetails} alt=''/>
 
-
-
-
-
-
-</div>
-          </div>
 
           </div>
-        </div>
-      </div>
+    
+          </div>
+                    </div>
+                    </div>
+                  </div>
+                </div>
 
 
 
@@ -106,15 +103,16 @@ function Sunie() {
 <div className='splp_inner_1'>
   <h3>Advanced Custom Fields</h3>
   <p>
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  In developing the website for Hello Sunie, I strategically employed Advanced Custom Fields to effectively structure and organize post types and user data. This customization allowed for a seamless and tailored user experience, ensuring that information is efficiently categorized and easily accessible throughout the entire site. By leveraging the capabilities of Advanced Custom Fields, I aimed to enhance the overall functionality and user interface, specifically catering to the unique needs of the utility management industry.
   </p>
 </div>
 
 <div className='splp_inner_2'>
-  <h3>Custom Plugins</h3>
+  <h3>Graphing Data</h3>
   <p>
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  As well as HTML builds out and icongraphy added to Metaboxes, I jazzed up the site by adding custom graphing functions. Now, we've got visually appealing graphs with icons, mapping multiple sets of data all over the place. It's not just about numbers; it's about making data fun and easy to understand across the entire site.
   </p>
+
 </div>
 </div>
 
