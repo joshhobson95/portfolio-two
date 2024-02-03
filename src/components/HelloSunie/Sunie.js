@@ -3,10 +3,10 @@ import './Sunie.css'
 import bigicons from '../../assets/HelloSunie/bigicons.png'
 import emailstuff from '../../assets/HelloSunie/emailstuff.png'
 import eventdetails from '../../assets/HelloSunie/EventDetials.png'
-import graphs from '../../assets/HelloSunie/graphs.png'
 import mainpage from '../../assets/HelloSunie/mainpage.png'
 import metabox from '../../assets/HelloSunie/metabox.png'
-
+import sunielogo from '../../assets/HelloSunie/hello-sunie.png'
+import jhlogo from '../../assets/Other/newJHlogo.png'
 
 function Sunie() {
   return (
@@ -51,9 +51,16 @@ function Sunie() {
           <img className='wp' src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg'  alt=''/>
         </div>
 
+        <div className='jh_container'>
+    <img className='jh_logo' src={jhlogo} alt=''/>
+        </div>
+
 
         <div className='key_features'>
-          <h1>Key Features</h1>
+          <div className='logo_container'>
+          <img className='sunie_logo' src={sunielogo} alt=''/>
+          </div>
+          <h1 className='kf'>Key Features</h1>
 
 
           <div className='key_grid'>
@@ -97,6 +104,10 @@ function Sunie() {
 
 <div className='sunie_project_lower_page'>
 
+  <div className='jh_container2'>
+  <img className='jh_logo2' src={jhlogo} alt=''/>
+  </div>
+
 <h1>Design Elements</h1>
 
 <div className='splp_2'>
@@ -105,6 +116,7 @@ function Sunie() {
   <p>
   In developing the website for Hello Sunie, I strategically employed Advanced Custom Fields to effectively structure and organize post types and user data. This customization allowed for a seamless and tailored user experience, ensuring that information is efficiently categorized and easily accessible throughout the entire site. By leveraging the capabilities of Advanced Custom Fields, I aimed to enhance the overall functionality and user interface, specifically catering to the unique needs of the utility management industry.
   </p>
+  <img src={jhlogo} />
 </div>
 
 <div className='splp_inner_2'>
@@ -112,7 +124,7 @@ function Sunie() {
   <p>
   As well as HTML builds out and icongraphy added to Metaboxes, I jazzed up the site by adding custom graphing functions. Now, we've got visually appealing graphs with icons, mapping multiple sets of data all over the place. It's not just about numbers; it's about making data fun and easy to understand across the entire site.
   </p>
-
+  <img src={jhlogo} />
 </div>
 </div>
 

@@ -133,7 +133,6 @@ justify-content: center;
 }
 
 .key_grid_one{
-
 margin-top: 10vh;
 }
 .key_grid_one_inner{
@@ -196,10 +195,10 @@ margin-bottom: 5vh;
     top: -20px;
     left: 0;
     width: 100%;
-    height: 69rem;
+    height: 89rem;
     background-color: #cbcbcb;
     z-index: -1;
-    transform: skew(0deg, -17deg); 
+    transform: skew(0deg, -12deg); 
   }
 
 
@@ -232,6 +231,32 @@ height: 30vh;
 .graphs{
     width: 80vw;
     margin: 1rem;
+}
+.logo_container{
+    display: flex;
+    justify-content: flex-end;
+}
+.sunie_logo{
+width: 40vw;
+margin: 1rem;
+}
+.jh_container{
+    position: relative;
+   top: 8rem;
+}
+.jh_logo{
+    width: 14.5vw;
+    padding-left: 2rem;
+}
+.jh_container2{
+display: flex;
+justify-content: flex-end;
+position: relative;
+top: -8rem;
+}
+.jh_logo2{
+    width: 14.5vw;
+    padding-right: 2rem;
 }
 
 
@@ -307,6 +332,16 @@ height: 30vh;
         height: 45vh;
         margin: 7rem;
     }
+    .sunie_project_lower_page {
+        margin-top: 0;
+    }
+
+    .jh_logo{
+        width: 11.5vw;
+    }
+    .jh_logo2{
+        width: 11.5vw;
+    }
 
 
 }
@@ -346,6 +381,17 @@ height: 30vh;
     margin-left: 5rem;
     margin-right: 5rem;
     }
+    
+    .jh_logo{
+        width: 8.5vw;
+    }
+    .jh_logo2{
+        width: 8.5vw;
+    }
+    .sunie_logo {
+        width: 25vw;
+        margin-right: 2rem;
+    }
 }
 
 @media screen and (min-width: 1500px) {
@@ -376,17 +422,141 @@ height: 30vh;
         height: 45vh;
         margin: 0rem;
     }
-    .key_grid_background {
-
-
-    }
     .key_grid h2 {
        margin-top: 100px;
     }
+}
 
 
+@media screen and (min-width: 1750px) {
+    .inner_square {
+        height: auto;
+        display: flex;
+    }
+    .bigicons {
+        width: 47vw;
+        margin: 1rem;
+        padding-left: 1rem;
+    }
+    .mainpage {
+        width: 47vw;
+        margin: 1rem;
+    }
+    .emailstuff {
+        height: 45vh;
+        width: auto;
+        margin: 0.5rem;
+    }
+    .key_grid_two_inner{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .eventdetails {
+        padding-left: 5rem;
+    }
+    .project_top_text p {
+        margin: 2rem 12rem;
+        padding-top: 4rem;
+        font-size: 16pt;
+    }
+    .metabox {
+        width: 14vw;
+        margin: 1rem;
+    }
+    .key_grid_background {
+        top: -100px;
+        height: 150rem;
+    }
+    .sunie_project_lower_page {
+    margin-top: 0%;
+    }
+        
+    .jh_logo{
+        width: 6.5vw;
+    }
+    .jh_logo2{
+        width: 6.5vw;
+    }
+    .sunie_logo {
+        width: 20vw;
+        margin-right: 3rem;
+    }
+    .project_top_text h1 {
+        font-size: 8rem;
+        margin: 0 20rem;
+        margin-top: 4rem;
+    }
+
+    .jh_container {
+        position: relative;
+        top: 5rem;
+    }
+    .key_grid_background {
+        top: -340px;
+        height: 167rem;
+    }
+    .sunie_project_mid_page h1 {
+        font-size: 2.5rem;
+    }
+    .sunie_project_lower_page h1 {
+        font-size: 2.5rem;
+    }
+    .key_grid h2 {
+        font-size: 2rem;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    .tech_icons img {
+        height: 9rem;
+        width: 9rem;
+    }
+    .tech_icons {
+        padding-top: 7rem;
+    }
+    .logo_container {
+        display: flex;
+        justify-content: flex-end;
+        position: relative;
+        top: -15rem;
+    }
+    .splp_2{
+        flex-direction: row;
+        justify-content: space-evenly;
+        text-align: center;
+    }
+    .splp_2 h3{
+        font-size: 2rem;
+        margin: 1rem;
+    }
+    .splp_inner_1 {
+        margin: 4rem;
+        width: 40vw;
+    }
+    .splp_inner_2{
+        margin: 4rem;
+        width: 40vw;
+    }
+    .kf{
+        margin-top: -10vh !important;
+    }
+    .sunie_date_container{
+        margin-top: 10rem;
+    }
+    .project_top_text p {
+        margin: 5rem 26rem;
+        padding-top: 4rem;
+        font-size: 22pt;
+        text-align: center;
+    }
+
+
+    
+    
 
 }
+
+
+
 
 
 
