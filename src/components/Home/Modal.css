@@ -180,15 +180,42 @@ top: -4vh;
   background-color: #572f0a;
 }
 
+.alert {
+    position: fixed;
+    top: 30vh;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: bold;
+    margin-top: 20px;
+    font-size: 18pt;
+  }
+  
+  .alert.success {
+    background-color: #4CAF50; /* Green */
+  }
+  
+
+  .alert.error {
+    background-color: #f44336; /* Red */
+  }
+  
+  
+
+/* MOBILE STYLING */
+/* MOBILE STYLING */
+/* MOBILE STYLING */
+/* MOBILE STYLING */
+/* MOBILE STYLING */
+/* MOBILE STYLING */
+/* MOBILE STYLING */
 
 
-/* MOBILE STYLING */
-/* MOBILE STYLING */
-/* MOBILE STYLING */
-/* MOBILE STYLING */
-/* MOBILE STYLING */
-/* MOBILE STYLING */
-/* MOBILE STYLING */
+
 
 @media screen and (min-width: 1100px) { 
     .modal_outer{
