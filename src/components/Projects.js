@@ -20,24 +20,22 @@ function Projects() {
                     <div className='cashHouse_text'>
                             <h1>Jericho Nursery Website Revitalization</h1>         
                     </div>
-                <img alt='' src={cashHouse} className='cashHouse'/>
-                    <div className='project_button_outer'>
                       <NavLink to='/jerichonursery'>
-                      <button> View Project Page</button>
+                <img alt='' src={cashHouse} className='cashHouse'/>
                       </NavLink>
-                    </div>
+     
             </div>
 
             <div className='grid_item_projects'>
             <div className='cashHouse_text'>
                             <h1>Hello Sunie Software Development</h1>         
                     </div>
+            <NavLink to='/hellosunie'>
                 <img alt='' src={sunie} className='sunie'/>
+               </NavLink>
             </div>
             <div className='grid_item_projects'>
-            <NavLink to='/hellosunie'>
-                      <button> View Project Page</button>
-               </NavLink>
+  
 
             </div>
             <div className='grid_item_projects'>

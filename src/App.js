@@ -14,7 +14,7 @@ function App() {
   return (
     <div className="app_wrapper">
     <div className="App">
-  {/* <Header /> */}
+  <Header />
 <Routes>
   <Route path='/' element={<Home />} />
   <Route path='/skills' element={<Skills/>} />

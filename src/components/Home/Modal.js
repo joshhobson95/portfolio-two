@@ -1,7 +1,24 @@
 import React from 'react';
 import './Modal.css';
 import logo from '../../assets/Other/logo.png'
+import pdf from '../../assets/Joshua_Hobson_CV_2024.pdf'
+
+
 function Modal() {
+
+    const handleDownloadResume = () => {
+        const pdfPath = pdf;
+        const link = document.createElement('a');
+        link.href = pdfPath;
+        link.download = 'Josh_Hobson_Resume.pdf';
+        link.click();
+      };
+    
+
+
+
+
+
   return (
     <div className='modal_outer'>
 
@@ -13,7 +30,7 @@ function Modal() {
             <div className='intro_container'>
                 <p className='intro'>Hello, my name is <span className='jh_red'>Josh Hobson </span>and I am a <span className='jh_blue'>Full Stack Web Developer. </span> Whether you are looking for a new member for your team, or just the freelancer who can get it all done, I am passionate to help you reach your Web Development needs. From <span className='jh_yellow'>design to database </span>, let me be the answer to “How can we get this done?”</p>
                 <div className='resume_button_container'>
-                <button className='resume_button'>Download Resume</button>
+                <button onClick={handleDownloadResume} className='resume_button'>Download Resume</button>
                 </div>
             </div>
 

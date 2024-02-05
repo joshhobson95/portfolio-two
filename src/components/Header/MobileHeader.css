@@ -1,6 +1,6 @@
 .mobile_header_outer {
     position: fixed;
-    top: 200px;
+    top: 40px;
     left: 240px;
     height: auto;
     display: flex;
@@ -48,6 +48,8 @@
     display: flex;
     justify-content: center;
     text-align: center;
+    left: 30px;
+    position: relative;
   }
   
   

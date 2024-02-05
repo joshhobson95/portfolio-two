@@ -20,15 +20,21 @@ function MobileHeader() {
       }
     };
 
-    const handleMouseInteraction = () => {
+    const handleMouseInteraction = (event) => {
       if (timeoutId) {
         clearTimeout(timeoutId);
       }
-
-      if (!isMenuOpen) {
+    
+      const menuContainer = document.querySelector('.menu-container');
+    
+      if (!menuContainer.contains(event.target)) {
+        // If the click is outside the menu, close the menu
+        setIsMenuOpen(false);
+      } else if (!isMenuOpen) {
+        // If the click is inside the menu and the menu is not open, open the menu
         setIsMenuOpen(true);
       }
-
+    
       timeoutId = setTimeout(() => {
         setIsMenuOpen(false);
       }, 5000);
@@ -87,7 +93,7 @@ function MobileHeader() {
         </nav>
 
         <button id="toggle-menu" className={isMenuOpen ? 'open' : ''} onClick={toggleMenu}>
-          {isMenuOpen ? '' : 'Open'}
+          {isMenuOpen ? '' : 'Menu'}
         </button>
 
       </div>

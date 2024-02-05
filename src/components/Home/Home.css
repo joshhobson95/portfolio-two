@@ -28,7 +28,6 @@ overflow: hidden;
     position: relative;
     transition: all 0.4s ease;
     animation: pulse 2s infinite;
-
 }
 
 
@@ -79,7 +78,15 @@ overflow: hidden;
     z-index: 18; 
     animation: none;
   }
-
+.x{
+    position: absolute;
+    z-index: 10;
+    color: #000000;
+    left: 2.75rem;
+    top: 1rem;
+    font-size: 24pt;
+    font-weight: 700;
+}
 
 .JoshHobson{
     font-size: 26pt !important; 
@@ -93,14 +100,16 @@ overflow: hidden;
     position: absolute;
     top: 1000px;
     left: 0px;
+    z-index: 5;
 }
-.newlogo{
-    position: absolute;
-    z-index: 5; 
-    width: 20rem;
-    margin-left: -100px;
-    margin-top: -300px;
-}  
+.newlogohome{
+    position: relative;
+    height: 20vh;
+    width: auto;
+    padding-left: 2rem;
+}
+
+
 
 
 @media screen and (min-width: 1100px) { 
@@ -114,6 +123,15 @@ overflow: hidden;
     }
     .header_left{
         font-size: 32pt;
+        }
+        .x{
+            left: 2.5rem;
+            top: 1.5rem;
+        }
+        .white_square{
+            width: 48rem;
+            height: 4rem;
+            left: -14rem;
         }
 
 

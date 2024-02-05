@@ -29,6 +29,7 @@ body {
 
 .project_top_text{
     margin-top: 12.5rem;
+    font-weight: 700;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -195,7 +196,7 @@ margin-bottom: 5vh;
     top: -20px;
     left: 0;
     width: 100%;
-    height: 110rem;
+    height: 100rem;
     background-color: #cbcbcb;
     z-index: -1;
     transform: skew(0deg, -12deg); 
@@ -263,7 +264,6 @@ top: -8rem;
     justify-content: center;
 }
 .acf{
-width: 66vw;
 margin: 1rem;
 }
 .customplugin{
@@ -286,7 +286,18 @@ margin: 1rem;
     margin: 0.5rem 2rem;
     font-size: 10pt;
 }
-
+.inner_square2{
+    padding-top: 1rem;
+}
+.customplugin_container{
+    display: flex;
+    justify-content: center;
+}
+.graphing_container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
 
   
 @media screen and (min-width: 750px) {
@@ -341,6 +352,9 @@ margin: 1rem;
     .splp_2 p {
         font-size: 16pt;
     }
+
+
+
 }
 
 @media screen and (min-width: 990px) {
@@ -353,7 +367,7 @@ margin: 1rem;
     }
 
     .key_grid_background {
-        height: 175rem;
+        height: 155rem;
     }
     .eventdetails {
         height: 45vh;
@@ -368,6 +382,23 @@ margin: 1rem;
     }
     .jh_logo2{
         width: 11.5vw;
+    }
+    .graphing_container{
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+    }
+    .graphs{
+        width: 45vw;
+    }
+    .details{
+        width: 45vw;
+    }
+    .key_grid_one p {
+        font-size: 12pt;
+    }
+    .key_grid_two p {
+        font-size: 12pt;
     }
 
 
@@ -418,6 +449,12 @@ margin: 1rem;
     .sunie_logo {
         width: 25vw;
         margin-right: 2rem;
+    }
+    .key_grid_one p {
+        font-size: 14pt;
+    }
+    .key_grid_two p {
+        font-size: 14pt;
     }
 }
 
@@ -574,6 +611,22 @@ margin: 1rem;
         padding-top: 4rem;
         font-size: 22pt;
         text-align: center;
+    }
+    .graphing_container {
+   width: 45vw;
+    }
+    .graphs {
+        width: 20vw;
+    }
+    .details {
+        width: 20vw;
+    }
+    .customplugin {
+        width: 45vw;
+        padding-top: 1rem;
+    }
+    .sunie_button_backdrop{
+        left: 49%;
     }
 
 

@@ -44,6 +44,7 @@ function Home() {
 </div>
 
 <div className="white_square" onClick={toggleModalVisibility}>
+  <p className='x'>x</p>
 </div>
 <div className="white_square2">
 </div>
@@ -57,7 +58,7 @@ function Home() {
       </div>
 
 <div className="newlogo_container">
-  <img className="newlogo" src={newlogo} alt=""/>
+  <img className="newlogohome" src={newlogo} alt=""/>
 </div>
 
 

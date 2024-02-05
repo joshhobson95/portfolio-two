@@ -173,7 +173,13 @@ top: -4vh;
     padding: 10px;
     border-radius: 5px;
     font-family: Inter;
+    cursor: pointer;
 }
+.resume_button:hover{
+  transition: 1s;
+  background-color: #572f0a;
+}
+
 
 
 /* MOBILE STYLING */
@@ -249,7 +255,7 @@ top: -4vh;
     .modal_right{
         background-color: #242424;
         width: 45%;
-        padding: 66px;
+        padding: 60px;
     }
     .modal_right p{
         color: #d9d9d9;
@@ -366,6 +372,9 @@ top: -4vh;
         border-radius: 5px;
         margin-top: 3.5rem;
         font-family: Inter;
+    }
+    .modal_right{
+        padding: 60px;
     }
 
 }
