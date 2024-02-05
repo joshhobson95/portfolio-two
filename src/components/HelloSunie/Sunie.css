@@ -195,7 +195,7 @@ margin-bottom: 5vh;
     top: -20px;
     left: 0;
     width: 100%;
-    height: 89rem;
+    height: 110rem;
     background-color: #cbcbcb;
     z-index: -1;
     transform: skew(0deg, -12deg); 
@@ -258,7 +258,34 @@ top: -8rem;
     width: 14.5vw;
     padding-right: 2rem;
 }
-
+.acf_container{
+    display: flex;
+    justify-content: center;
+}
+.acf{
+width: 66vw;
+margin: 1rem;
+}
+.customplugin{
+    width: 92vw;
+    padding-top: 1rem;
+}
+.details{
+    width: 85vw;
+    padding-top: 1rem;
+}
+.customplugin{
+    width: 85vw;
+    padding-top: 1rem;
+}
+.key_grid_one p{
+    margin: 0.5rem 2rem;
+    font-size: 10pt;
+}
+.key_grid_two p{
+    margin: 0.5rem 2rem;
+    font-size: 10pt;
+}
 
 
   
