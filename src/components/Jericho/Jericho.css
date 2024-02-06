@@ -76,7 +76,7 @@ padding-top: 4rem;
     z-index: 3;
     transform: translate(-50%, -50%); 
 }
-.sunie_date_container{
+.jericho_date_container{
     position: relative;
     display: flex;
     justify-content: flex-end;
@@ -114,14 +114,14 @@ justify-content: center;
     width: 3.5rem;
 }
 
-.key_features{
+.j_key_features{
     width: 100vw;
     position: relative;
     z-index: 5;
     margin-top: 18vh;
 }
 
-.key_features h1{
+.j_key_features h1{
     display: flex;
     justify-content: center;
     color: #95562E;
@@ -188,7 +188,7 @@ margin-bottom: 5vh;
 }
 
 
-.key_features {
+.j_key_features {
     position: relative;
   }
   .key_grid_background {
@@ -237,7 +237,7 @@ height: 30vh;
     display: flex;
     justify-content: flex-end;
 }
-.sunie_logo{
+.jericho_logo{
 width: 40vw;
 margin: 1rem;
 }
@@ -309,7 +309,7 @@ margin: 1rem;
         padding-top: 4rem;
         font-size: 16pt;
     }
-    .sunie_date_container {
+    .jericho_date_container {
         font-size: 14pt;
     }
     .tech_icons{
@@ -319,7 +319,7 @@ margin: 1rem;
         height: 5.5rem;
         width: 5.5rem;
     }
-    .sunie_project_mid_page h1{
+    .jericho_project_mid_page h1{
         font-size: 1.5rem;
     }
     .key_grid {
@@ -333,17 +333,17 @@ margin: 1rem;
         font-size: 1.25rem;
     }
 
-    .sunie_button_container button {
+    .jericho_button_container button {
         font-size: 18pt;
         height: 4.5rem;
         width: 12.5rem;
     }
-    .sunie_button_backdrop {
+    .jericho_button_backdrop {
         height: 4.5rem;
         width: 12.5rem;
     }
  
-    .sunie_project_lower_page h1 {
+    .jericho_project_lower_page h1 {
         font-size: 1.5rem;
     }
     .splp_2 h3 {
@@ -373,7 +373,7 @@ margin: 1rem;
         height: 45vh;
         margin: 7rem;
     }
-    .sunie_project_lower_page {
+    .jericho_project_lower_page {
         margin-top: 0;
     }
 
@@ -411,12 +411,12 @@ margin: 1rem;
     .project_top_text p {
         font-size: 18pt;
     }
-    .sunie_button_container button {
+    .jericho_button_container button {
         font-size: 20pt;
         height: 5.5rem;
         width: 14.5rem;
     }
-    .sunie_button_backdrop {
+    .jericho_button_backdrop {
         height: 5.5rem;
         width: 14.5rem;
     }
@@ -435,7 +435,7 @@ margin: 1rem;
     .tech_icons{
         padding-bottom: 9rem;
     }
-    .sunie_project_lower_page {
+    .jericho_project_lower_page {
     margin-left: 5rem;
     margin-right: 5rem;
     }
@@ -446,7 +446,7 @@ margin: 1rem;
     .jh_logo2{
         width: 8.5vw;
     }
-    .sunie_logo {
+    .jericho_logo {
         width: 25vw;
         margin-right: 2rem;
     }
@@ -531,7 +531,7 @@ margin: 1rem;
         top: -100px;
         height: 150rem;
     }
-    .sunie_project_lower_page {
+    .jericho_project_lower_page {
     margin-top: 0%;
     }
         
@@ -541,7 +541,7 @@ margin: 1rem;
     .jh_logo2{
         width: 6.5vw;
     }
-    .sunie_logo {
+    .jericho_logo {
         width: 20vw;
         margin-right: 3rem;
     }
@@ -559,10 +559,10 @@ margin: 1rem;
         top: -340px;
         height: 167rem;
     }
-    .sunie_project_mid_page h1 {
+    .jericho_project_mid_page h1 {
         font-size: 2.5rem;
     }
-    .sunie_project_lower_page h1 {
+    .jericho_project_lower_page h1 {
         font-size: 2.5rem;
     }
     .key_grid h2 {
@@ -603,7 +603,7 @@ margin: 1rem;
     .kf{
         margin-top: -10vh !important;
     }
-    .sunie_date_container{
+    .jericho_date_container{
         margin-top: 10rem;
     }
     .project_top_text p {
@@ -625,7 +625,7 @@ margin: 1rem;
         width: 45vw;
         padding-top: 1rem;
     }
-    .sunie_button_backdrop{
+    .jericho_button_backdrop{
         left: 49%;
     }
 

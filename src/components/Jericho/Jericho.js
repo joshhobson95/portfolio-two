@@ -1,16 +1,6 @@
 import React from 'react'
 import './Jericho.css'
-import bigicons from '../../assets/HelloSunie/bigicons.png'
-import eventdetails from '../../assets/HelloSunie/EventDetials.png'
-import mainpage from '../../assets/HelloSunie/mainpage.png'
-import metabox from '../../assets/HelloSunie/metabox.png'
-import sunielogo from '../../assets/HelloSunie/hello-sunie.png'
 import jhlogo from '../../assets/Other/newJHlogo.png'
-import customplugin from '../../assets/HelloSunie/customplugin.png'
-import details from '../../assets/HelloSunie/details.png'
-import graphs from '../../assets/HelloSunie/graphs.png'
-
-import jericho from '../../assets/Other/cashHouse.jpg'
 import jerichologo from '../../assets/Other/WideLogoGlow-1920x482-1.png'
 import aboutus from '../../assets/JerichoPage/aboutus.png'
 import admin from '../../assets/JerichoPage/admin.png'
@@ -23,6 +13,13 @@ import mobilenav from '../../assets/JerichoPage/mobilenav.png'
 import radio from '../../assets/JerichoPage/radio.png'
 import Icons from '../../assets/JerichoPage/Icons.jpg'
 
+
+
+//LAST STEPS
+//Box Shadows 
+//Resize Images
+//Write paragraphs
+//Change last class names
 
 function Jericho() {
   return (
@@ -73,7 +70,7 @@ function Jericho() {
         </div>
 
 
-        <div className='key_features'>
+        <div className='j_key_features'>
           <div className='logo_container'>
           <img className='sunie_logo' src={jerichologo} alt=''/>
           </div>
