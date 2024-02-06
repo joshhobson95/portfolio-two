@@ -12,6 +12,16 @@ import graphs from '../../assets/HelloSunie/graphs.png'
 
 import jericho from '../../assets/Other/cashHouse.jpg'
 import jerichologo from '../../assets/Other/WideLogoGlow-1920x482-1.png'
+import aboutus from '../../assets/JerichoPage/aboutus.png'
+import admin from '../../assets/JerichoPage/admin.png'
+import blogpost from '../../assets/JerichoPage/blogpost.png'
+import editblog from '../../assets/JerichoPage/editblog.png'
+import gardencal from '../../assets/JerichoPage/gardencal.png'
+import Home from '../../assets/JerichoPage/Home.png'
+import mobilehome from '../../assets/JerichoPage/mobilehome.png'
+import mobilenav from '../../assets/JerichoPage/mobilenav.png'
+import radio from '../../assets/JerichoPage/radio.png'
+import Icons from '../../assets/JerichoPage/Icons.jpg'
 
 
 function Jericho() {
@@ -79,8 +89,9 @@ function Jericho() {
             <p>In the execution of the HelloSunie project, I meticulously crafted the HTML code, seamlessly integrating responsive design elements and optimizing the structure to enhance user experience, demonstrating proficiency in web development and attention to detail</p>
           <div className='key_grid_one_inner'>
               <div className='inner_square'>
-              <img className='mainpage' src={mainpage} alt=''/>
-              <img className='bigicons' src={bigicons} alt=''/>
+              <img className='mainpage' src={Home} alt=''/>
+              <img className='bigicons' src={gardencal} alt=''/>
+              <img className='bigicons' src={radio} alt=''/>
 
               </div>
       
@@ -93,8 +104,9 @@ function Jericho() {
                       <p>Next, I elevated Metabox customization by implementing dynamic icons that change appearance based on received data, enhancing both the visual appeal and functionality of our site. Additionally, I spearheaded the creation of comprehensive custom post types and a robust data structure using Advanced Custom Fields (ACF), contributing significantly to HelloSunie's efforts in building a stellar product</p>
           <div className='key_grid_two_inner'>
           <div className='inner_square2'>
-          <img className='metabox' src={metabox} alt=''/>
-          <img className='eventdetails' src={eventdetails} alt=''/>
+          <img className='metabox' src={admin} alt=''/>
+          <img className='eventdetails' src={editblog} alt=''/>
+          <img className='eventdetails' src={blogpost} alt=''/>
           </div>
 
 
@@ -120,24 +132,24 @@ function Jericho() {
 
 <div className='splp_2'>
 <div className='splp_inner_1'>
-  <h3>Custom Assets-Custom NavBar</h3>
+  <h3>Icons and Assets</h3>
   <p>
   In the development of a custom WordPress plugin for the project, I innovatively designed and implemented an intuitive admin calendar feature. This dynamic tool not only allowed administrative users to schedule services, complete with the ability to remove items seamlessly, but also facilitated personalized email notifications, delivering carefully formatted tables containing selected data to recipients as per the client's unique preferences
   </p>
   <div className='customplugin_container'>
-  <img className='customplugin' src={customplugin} alt='' />
+  <img className='customplugin' src={Icons} alt='' />
+  <img className='customplugin' src={aboutus} alt='' />
   </div>
 </div>
 
 <div className='splp_inner_2'>
-  <h3>Improved SEO and Web Traffic</h3>
-  <span>Improved Website Traffic by 50%</span>
+  <h3>Custom Mobile Styling</h3>
   <p>
   In overseeing the data direction for specific service and project views, I meticulously curated detailed pages that dynamically showcased information relevant to the selected service. Elevating the user experience, I crafted custom PHP functions to generate insightful graphs from scratch, seamlessly integrating them into the HTML and CSS structure, thereby delivering visually compelling representations of pertinent data tailored to each viewed service or project
   </p>
   <div className='graphing_container'>
-  <img className='details' src={details} alt=''/>
-  <img className='graphs' src={graphs} alt=''/>
+  <img className='details' src={mobilehome} alt=''/>
+  <img className='graphs' src={mobilenav} alt=''/>
   </div>
 </div>
 </div>
