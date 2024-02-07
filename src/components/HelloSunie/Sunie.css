@@ -453,9 +453,11 @@ margin: 1rem;
     }
     .key_grid_one p {
         font-size: 14pt;
+        margin: 3rem;
     }
     .key_grid_two p {
         font-size: 14pt;
+        margin: 3rem;
     }
 }
 

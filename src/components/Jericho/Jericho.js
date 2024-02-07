@@ -2,24 +2,23 @@ import React from 'react'
 import './Jericho.css'
 import jhlogo from '../../assets/Other/newJHlogo.png'
 import jerichologo from '../../assets/Other/WideLogoGlow-1920x482-1.png'
-import aboutus from '../../assets/JerichoPage/aboutus.png'
 import admin from '../../assets/JerichoPage/admin.png'
 import blogpost from '../../assets/JerichoPage/blogpost.png'
 import editblog from '../../assets/JerichoPage/editblog.png'
 import gardencal from '../../assets/JerichoPage/gardencal.png'
-import Home from '../../assets/JerichoPage/Home.png'
+import Home1 from '../../assets/JerichoPage/Home1.png'
 import mobilehome from '../../assets/JerichoPage/mobilehome.png'
 import mobilenav from '../../assets/JerichoPage/mobilenav.png'
 import radio from '../../assets/JerichoPage/radio.png'
 import Icons from '../../assets/JerichoPage/Icons.jpg'
+import DeliveryVan from '../JerichoNursery/DeliveryVan'
+import SeminarIcon from '../JerichoNursery/SeminarIcon'
+import Loading from '../JerichoNursery/Loading'
 
 
 
-//LAST STEPS
-//Box Shadows 
-//Resize Images
-//Write paragraphs
-//Change last class names
+
+
 
 function Jericho() {
   return (
@@ -38,8 +37,10 @@ function Jericho() {
 
         
     <div className='jericho_button_container'>
-        <div className='jericho_button_backdrop'></div>
+        
+        <a href='https://www.jerichonursery.com/'>
     <button>Visit Website</button>
+        </a>
     </div>
 
 
@@ -85,10 +86,10 @@ function Jericho() {
             <h2>A New React App</h2>
             <p>In the execution of the HelloSunie project, I meticulously crafted the HTML code, seamlessly integrating responsive design elements and optimizing the structure to enhance user experience, demonstrating proficiency in web development and attention to detail</p>
           <div className='key_grid_one_inner'>
-              <div className='inner_square'>
-              <img className='mainpage' src={Home} alt=''/>
-              <img className='bigicons' src={gardencal} alt=''/>
-              <img className='bigicons' src={radio} alt=''/>
+              <div className='inner_square_j'>
+              <img className='jericho_mainpage1' src={Home1} alt=''/>
+              <img className='jericho_img' src={gardencal} alt=''/>
+              <img className='jericho_img2' src={radio} alt=''/>
 
               </div>
       
@@ -100,10 +101,10 @@ function Jericho() {
                       <h2>Custom NodeJS Backend</h2>
                       <p>Next, I elevated Metabox customization by implementing dynamic icons that change appearance based on received data, enhancing both the visual appeal and functionality of our site. Additionally, I spearheaded the creation of comprehensive custom post types and a robust data structure using Advanced Custom Fields (ACF), contributing significantly to HelloSunie's efforts in building a stellar product</p>
           <div className='key_grid_two_inner'>
-          <div className='inner_square2'>
-          <img className='metabox' src={admin} alt=''/>
-          <img className='eventdetails' src={editblog} alt=''/>
-          <img className='eventdetails' src={blogpost} alt=''/>
+          <div className='j_inner_square2'>
+          <img className='editblog' src={editblog} alt=''/>
+          <img className='editblog' src={blogpost} alt=''/>
+          <img className='admin_j' src={admin} alt=''/>
           </div>
 
 
@@ -133,9 +134,23 @@ function Jericho() {
   <p>
   In the development of a custom WordPress plugin for the project, I innovatively designed and implemented an intuitive admin calendar feature. This dynamic tool not only allowed administrative users to schedule services, complete with the ability to remove items seamlessly, but also facilitated personalized email notifications, delivering carefully formatted tables containing selected data to recipients as per the client's unique preferences
   </p>
-  <div className='customplugin_container'>
-  <img className='customplugin' src={Icons} alt='' />
-  <img className='customplugin' src={aboutus} alt='' />
+  <div className='customplugin_container_j'>
+  <img className='customplugin_j' src={Icons} alt='' />
+  <div className='icons_grid'>
+  <div className='seminar_icon'>
+    <div className='hover_span_container'>
+  <span className='hover_span'>Hover to Replay Animation</span>
+    </div>
+  <SeminarIcon />
+  </div>
+  <div className='deliveryvan_icon'>
+  <DeliveryVan />
+  </div>
+  <div className='loading_icon'>
+  <Loading />
+  </div>
+  </div>
+  
   </div>
 </div>
 
@@ -144,10 +159,11 @@ function Jericho() {
   <p>
   In overseeing the data direction for specific service and project views, I meticulously curated detailed pages that dynamically showcased information relevant to the selected service. Elevating the user experience, I crafted custom PHP functions to generate insightful graphs from scratch, seamlessly integrating them into the HTML and CSS structure, thereby delivering visually compelling representations of pertinent data tailored to each viewed service or project
   </p>
-  <div className='graphing_container'>
-  <img className='details' src={mobilehome} alt=''/>
-  <img className='graphs' src={mobilenav} alt=''/>
-  </div>
+<div className='graphing_container_j'>
+  <img className='mobilehome' src={mobilehome} alt=''/>
+  <img className='mobilenav' src={mobilenav} alt=''/>
+</div>
+
 </div>
 </div>
 
