@@ -7,6 +7,7 @@ import Skills from "./components/Skills";
 import Projects from "./components/Projects";
 import Jericho from "./components/Jericho/Jericho";
 import Sunie from "./components/HelloSunie/Sunie";
+import Collab from "./components/Collab/Collab";
 
 
 
@@ -21,6 +22,7 @@ function App() {
   <Route path='/projects' element={<Projects/>} />
   <Route path='/jerichonursery' element={<Jericho/>} />
   <Route path='/hellosunie' element={<Sunie/>} />
+  <Route path='/collaborative4you' element={<Collab/>} />
 </Routes>
     </div>
     </div>

@@ -55,7 +55,7 @@ function Projects() {
             <div className='cashHouse_text'>
                             <h1>Collaborative Counselling Design Work</h1>         
                     </div>
-            <NavLink to='/hellosunie'>
+            <NavLink to='/collaborative4you'>
                 <img alt='' src={chicago} className='sunie'/>
                </NavLink>
 
