@@ -67,7 +67,31 @@ padding-top: 4rem;
     box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px, 
     -15px -15px 0 0px #4FA673; 
     cursor: pointer;
+    position: relative;
+    
 }
+.jericho_button_container button:after {
+    content: '»';
+    color: #242424;
+    font-size: 28pt;
+    position: absolute;
+    opacity: 0;
+    top: 46%;
+    right: -20px;
+    transform: translateY(-50%);
+    transition: 0.5s;
+  }
+  
+  .jericho_button_container button:hover:after {
+    opacity: 1;
+    right: 10px;
+  }
+  
+  .jericho_button_container button:hover {
+    transition: .5s;
+    background-color: #4FA673; 
+    box-shadow: none;
+  }
 
 .jericho_date_container{
     position: relative;
@@ -78,7 +102,7 @@ padding-top: 4rem;
     padding-right: 20px;
 }
 .jericho_project_mid_page{
-    margin-top: 2rem;
+    margin-top: 4rem;
     height: auto;
     width: 100vw;
     background-color: #242424;
@@ -126,14 +150,14 @@ justify-content: center;
     flex-direction: column;
 }
 
-.key_grid_one{
+.key_grid_one_j{
 margin-top: 10vh;
 }
 .key_grid_one_inner{
     display: flex;
 }
 
-.key_grid_two{
+.key_grid_two_j{
 position: relative;
 z-index: 6;
 }
@@ -184,7 +208,7 @@ margin-bottom: 5vh;
 .j_key_features {
     position: relative;
   }
-  .key_grid_background {
+  .key_grid_background_j {
     position: absolute;
     top: -20px;
     left: 0;
@@ -281,11 +305,12 @@ top: -8rem;
     display: flex;
     justify-content: center;
 }
-.key_grid_one p{
+.key_grid_one_j p{
     margin: 0.5rem 2rem;
     font-size: 10pt;
 }
-.key_grid_two p{
+
+.key_grid_two_j p{
     margin: 0.5rem 2rem;
     font-size: 10pt;
 }
@@ -357,7 +382,7 @@ justify-content: center;
     .key_grid {
         margin-left: 1rem;
     }
-    .key_grid_background {
+    .key_grid_background_j {
         top: -42px;
         height: 125rem;
     }
@@ -406,8 +431,16 @@ justify-content: center;
         height: 7.5rem;
         width: 7.5rem;
     }
+    .jericho_project_mid_page{
+        margin-top: 9rem;
+        height: auto;
+        width: 100vw;
+        background-color: #242424;
+        position: relative;
+        z-index: 1;
+    }
 
-    .key_grid_background {
+    .key_grid_background_j {
         height: 155rem;
     }
     .eventdetails {
@@ -435,10 +468,10 @@ justify-content: center;
     .mobilenav{
         width: 45vw;
     }
-    .key_grid_one p {
+    .key_grid_one_j p {
         font-size: 12pt;
     }
-    .key_grid_two p {
+    .key_grid_two_j p {
         font-size: 14pt;
     }
     .icons_grid{
@@ -474,6 +507,10 @@ justify-content: center;
         width: 50vw;
         margin: 1rem;
     }
+    .customplugin_j_container {
+       display: flex;
+       justify-content: center;
+    }
 
 }
 
@@ -499,14 +536,14 @@ justify-content: center;
         width: 14.5rem;
     }
 
-    .key_grid_one {
+    .key_grid_one_j {
         margin-bottom: 21vh;
     }
 
     .key_grid h2{
         font-size: 1.5rem;
     }
-    .key_grid_background {
+    .key_grid_background_j {
         top: -100px;
         height: 220rem;
     }
@@ -528,10 +565,10 @@ justify-content: center;
         width: 25vw;
         margin-right: 2rem;
     }
-    .key_grid_one p {
+    .key_grid_one_j p {
         font-size: 14pt;
     }
-    .key_grid_two p {
+    .key_grid_two_j p {
         font-size: 14pt;
     }
     .admin_j {
@@ -582,6 +619,7 @@ justify-content: center;
         height: auto;
         display: flex;
         flex-wrap: wrap;
+        justify-content: center;
     }
     .bigicons {
         width: 47vw;
@@ -613,10 +651,7 @@ justify-content: center;
         width: 14vw;
         margin: 1rem;
     }
-    .key_grid_background {
-        top: -100px;
-        height: 150rem;
-    }
+
     .jericho_project_lower_page {
     margin-top: 0%;
     }
@@ -641,9 +676,9 @@ justify-content: center;
         position: relative;
         top: 5rem;
     }
-    .key_grid_background {
-        top: -340px;
-        height: 167rem;
+    .key_grid_background_j {
+        top: -300px;
+        height: 250rem;
     }
     .jericho_project_mid_page h1 {
         font-size: 2.5rem;
@@ -690,7 +725,7 @@ justify-content: center;
         margin-top: -10vh !important;
     }
     .jericho_date_container{
-        margin-top: 10rem;
+        margin-top: 15rem;
     }
     .project_top_text p {
         margin: 5rem 26rem;
@@ -711,15 +746,15 @@ justify-content: center;
     }
     .jericho_mainpage1 {
         width: auto;
-        height: 50vh;
+        height: 65vh;
     }
     .jericho_img {
         width: auto;
-        height: 25vh;
+        height: 32vh;
     }
     .jericho_img2 {
         width: auto;
-        height: 25vh;
+        height: 32vh;
     }
     .editblog {
         width: auto;
@@ -733,6 +768,14 @@ justify-content: center;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
+    }
+    .key_grid_one_j{
+        margin: 10rem
+    }
+    .key_grid_one_j p {
+        font-size: 16pt;
+        margin: 4rem 0rem;
+        margin-right: 30rem;
     }
     .key_grid_one_inner {
         display: flex;
@@ -752,6 +795,14 @@ justify-content: center;
         height: 65vh;
         margin: 2rem;
     }
+    .key_grid_two_j{
+        margin: 10rem;
+    }
+    .key_grid_two_j p {
+        font-size: 16pt;
+        margin: 4rem 0rem;
+        margin-right: 30rem;
+    }
 
 
 
@@ -767,3 +818,13 @@ justify-content: center;
 
 
 
+
+@media screen and (min-width: 2000px) {
+    .key_grid_one_j p {
+        margin-right: 50rem;
+    }
+    .key_grid_two_j p {
+        margin-right: 50rem;
+    }
+
+}

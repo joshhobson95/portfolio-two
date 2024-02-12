@@ -1,7 +1,6 @@
 import React from 'react'
 import './Collab.css'
 import jhlogo from '../../assets/Other/newJHlogo.png'
-
 import collab from '../../assets/Other/collab.png'
 
 

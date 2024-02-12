@@ -44,7 +44,7 @@ function Jericho() {
     </div>
 
 
-    <div className='sunie_date_container'>
+    <div className='jericho_date_container'>
     <span>April 2023</span>
     </div>
       </div>
@@ -80,11 +80,11 @@ function Jericho() {
 
           <div className='key_grid'>
 
-          <div className='key_grid_background'></div>
+          <div className='key_grid_background_j'></div>
 
-          <div className='key_grid_one'>
+          <div className='key_grid_one_j'>
             <h2>A New React App</h2>
-            <p>In the execution of the HelloSunie project, I meticulously crafted the HTML code, seamlessly integrating responsive design elements and optimizing the structure to enhance user experience, demonstrating proficiency in web development and attention to detail</p>
+            <p>Jericho Nursery wanted their website faster, more responsive, and to have a robust and strong infastructure surrounding their main featureus of the website; their blogs, images, videos and podcasts. What better way to do this than swithcing them over to a React App.</p>
           <div className='key_grid_one_inner'>
               <div className='inner_square_j'>
               <img className='jericho_mainpage1' src={Home1} alt=''/>
@@ -97,7 +97,7 @@ function Jericho() {
             </div>
       </div>
 
-                    <div className='key_grid_two'>
+                    <div className='key_grid_two_j'>
                       <h2>Custom NodeJS Backend</h2>
                       <p>Next, I elevated Metabox customization by implementing dynamic icons that change appearance based on received data, enhancing both the visual appeal and functionality of our site. Additionally, I spearheaded the creation of comprehensive custom post types and a robust data structure using Advanced Custom Fields (ACF), contributing significantly to HelloSunie's efforts in building a stellar product</p>
           <div className='key_grid_two_inner'>
@@ -135,7 +135,9 @@ function Jericho() {
   In the development of a custom WordPress plugin for the project, I innovatively designed and implemented an intuitive admin calendar feature. This dynamic tool not only allowed administrative users to schedule services, complete with the ability to remove items seamlessly, but also facilitated personalized email notifications, delivering carefully formatted tables containing selected data to recipients as per the client's unique preferences
   </p>
   <div className='customplugin_container_j'>
+    <div className='customplugin_j_container'>
   <img className='customplugin_j' src={Icons} alt='' />
+    </div>
   <div className='icons_grid'>
   <div className='seminar_icon'>
     <div className='hover_span_container'>

@@ -98,7 +98,7 @@ overflow: hidden;
 }
 .newlogo_container{
     position: absolute;
-    top: 1000px;
+    top: 800px;
     left: 0px;
     z-index: 5;
 }
@@ -107,6 +107,22 @@ overflow: hidden;
     height: 20vh;
     width: auto;
     padding-left: 2rem;
+}
+
+.offers{
+    position: relative;
+    z-index: 4;
+    background-color: rgb(188, 188, 207);
+    margin-top: 120vh;
+    display: flex;
+    justify-content: center;
+    height: auto;
+}
+.offers_inner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
 }
 
 
