@@ -80,6 +80,7 @@ padding-top: 4rem;
     right: -20px;
     transform: translateY(-50%);
     transition: 0.5s;
+    
   }
   
   .jericho_button_container button:hover:after {
@@ -90,7 +91,8 @@ padding-top: 4rem;
   .jericho_button_container button:hover {
     transition: .5s;
     background-color: #4FA673; 
-    box-shadow: none;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 7px 4px, 
+    -5px -5px 0 0px #242424; 
   }
 
 .jericho_date_container{
@@ -130,6 +132,18 @@ justify-content: center;
     height: 3.5rem;
     width: 3.5rem;
 }
+.icon_container {
+    border-radius: 50%;
+    border: 2px solid rgba(0, 0, 0, 0);
+    padding: 1.25rem; 
+    transition: 1s;
+  }
+  .icon_container:hover{
+    color: #ffee10;
+    box-shadow: 0 0 5px #ffee10;
+  }
+  
+
 
 .j_key_features{
     width: 100vw;
@@ -356,6 +370,7 @@ justify-content: center;
     margin: 0.75rem;
     color: #478ba7;
 }
+
   
 @media screen and (min-width: 750px) {
     .project_top_text h1 {
@@ -376,6 +391,10 @@ justify-content: center;
         height: 5.5rem;
         width: 5.5rem;
     }
+
+
+
+
     .jericho_project_mid_page h1{
         font-size: 1.5rem;
     }

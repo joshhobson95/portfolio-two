@@ -2,8 +2,10 @@ import React from 'react'
 import './Collab.css'
 import jhlogo from '../../assets/Other/newJHlogo.png'
 import collab from '../../assets/Other/collab.png'
-
-
+import mobile from '../../assets/Collab/mobile.png'
+import mobile2 from '../../assets/Collab/mobile2.png'
+import yarn from '../../assets/Collab/yarn-icon.png'
+import page from '../../assets/Collab/Page.png'
 
 
 
@@ -28,7 +30,6 @@ function Collab() {
 
         
     <div className='collab_button_container'>
-        
         <a href='https://www.figma.com/file/fYGfimt9A5Scba1r0f0y0y/Collaborative-Counselling-Designs?type=design&node-id=1%3A2235&mode=design&t=P8l72AlMtFv6w4lZ-1'>
     <button>Visit Figma</button>
         </a>
@@ -63,34 +64,31 @@ function Collab() {
 
         <div className='j_key_features'>
           <div className='logo_container'>
-          <img className='sunie_logo' src={collab} alt=''/>
+          <img className='collab_logo' src={collab} alt=''/>
           </div>
           <h1 className='kf2'>Key Features</h1>
 
 
           <div className='key_grid'>
+          <div className='key_grid_background_c'></div>
 
-          <div className='key_grid_background'></div>
-
-          <div className='key_grid_one'>
-            <h2>A New React App</h2>
-            <p>In the execution of the HelloSunie project, I meticulously crafted the HTML code, seamlessly integrating responsive design elements and optimizing the structure to enhance user experience, demonstrating proficiency in web development and attention to detail</p>
-          <div className='key_grid_one_inner'>
-              <div className='inner_square_j'>
-      
-
-              </div>
-      
-
+          <div className='key_grid_one_c'>
+            <h2>Professional Design</h2>
+            <p>From Webpages, to custom graphics, I worked with the Collaborative Counselling team to whip up a potential new design for their website.</p>
+          <div className='key_grid_one_inner_c'>
+          <div className='collab_image_frame'>
+            <img className='collab_page' src={page} alt=''/>
+          </div>
             </div>
       </div>
 
-                    <div className='key_grid_two'>
-                      <h2>Custom NodeJS Backend</h2>
-                      <p>Next, I elevated Metabox customization by implementing dynamic icons that change appearance based on received data, enhancing both the visual appeal and functionality of our site. Additionally, I spearheaded the creation of comprehensive custom post types and a robust data structure using Advanced Custom Fields (ACF), contributing significantly to HelloSunie's efforts in building a stellar product</p>
-          <div className='key_grid_two_inner'>
-          <div className='j_inner_square2'>
-
+                    <div className='key_grid_two_c'>
+                      <h2>With responsive expertise</h2>
+                      <p>I was given a number of websites and exmaples that contributed greatly to the design created. When given the information needed, I was able to craft exactly what was in the mind of the Collaborative Counselling team</p>
+          <div className='key_grid_two_inner_c'>
+          <div className='collab_image_frame'>
+            <img className='collab_mobile' src={mobile} alt=''/>
+            <img className='collab_mobile' src={mobile2} alt=''/>
           </div>
 
 
@@ -116,24 +114,17 @@ function Collab() {
 
 <div className='splp_2'>
 <div className='splp_inner_1'>
-  <h3>Icons and Assets</h3>
-  <p>
-  In the development of a custom WordPress plugin for the project, I innovatively designed and implemented an intuitive admin calendar feature. This dynamic tool not only allowed administrative users to schedule services, complete with the ability to remove items seamlessly, but also facilitated personalized email notifications, delivering carefully formatted tables containing selected data to recipients as per the client's unique preferences
-  </p>
-  <div className='customplugin_container_j'>
-
-  <div className='icons_grid'>
-  
-  </div>
-  
+  <h3>Custom Icons</h3>
+  <div className='yarn_container'>
+      <img className='yarn_img' src={yarn} alt=''/>
   </div>
 </div>
 
 <div className='splp_inner_2'>
-  <h3>Custom Mobile Styling</h3>
+  {/* <h3>Custom Mobile Styling</h3>
   <p>
   In overseeing the data direction for specific service and project views, I meticulously curated detailed pages that dynamically showcased information relevant to the selected service. Elevating the user experience, I crafted custom PHP functions to generate insightful graphs from scratch, seamlessly integrating them into the HTML and CSS structure, thereby delivering visually compelling representations of pertinent data tailored to each viewed service or project
-  </p>
+  </p> */}
 <div className='graphing_container_j'>
 
 </div>

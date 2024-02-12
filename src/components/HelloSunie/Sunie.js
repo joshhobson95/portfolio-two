@@ -29,7 +29,7 @@ function Sunie() {
         
     <div className='sunie_button_container'>
         <div className='sunie_button_backdrop'></div>
-    <button>Visit CodeSandbox</button>
+    <button>Visit Demo</button>
     </div>
 
 

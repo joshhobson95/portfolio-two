@@ -58,13 +58,24 @@ function Jericho() {
         <h1>Technologies Used</h1>
         </div>
 
+
         <div className='tech_icons'>
-          <img className='php' src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg'  alt=''/>
-          <img className='wp' src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg'  alt=''/>
-          <img className='wp' src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg'  alt=''/>
-          <img className='wp' src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg'  alt=''/>
-          <img className='wp' src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sequelize/sequelize-original.svg'  alt=''/>
-        </div>
+  <div class='icon_container'>
+    <img className='php' src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg' alt=''/>
+  </div>
+  <div class='icon_container'>
+    <img className='wp' src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg' alt=''/>
+  </div>
+  <div class='icon_container'>
+    <img className='wp' src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg' alt=''/>
+  </div>
+  <div class='icon_container'>
+    <img className='wp' src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg' alt=''/>
+  </div>
+  <div class='icon_container'>
+    <img className='wp' src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sequelize/sequelize-original.svg' alt=''/>
+  </div>
+</div>
 
         <div className='jh_container'>
     <img className='jh_logo' src={jhlogo} alt=''/>

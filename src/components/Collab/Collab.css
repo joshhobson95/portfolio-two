@@ -52,6 +52,7 @@ padding-top: 4rem;
     z-index: 4;
     width: 100vw;
     padding-top: 2rem;
+    margin-right: 12rem;
     overflow: hidden;
 }
 
@@ -67,7 +68,33 @@ padding-top: 4rem;
     box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px, 
     -15px -15px 0 0px #0C4A80; 
     cursor: pointer;
+    position: relative;
+    
 }
+.collab_button_container button:after {
+    content: '»';
+    color: #ffffff;
+    font-size: 28pt;
+    position: absolute;
+    opacity: 0;
+    top: 46%;
+    right: 0px;
+    transform: translateY(-50%);
+    transition: 0.5s;
+    
+  }
+  
+  .collab_button_container button:hover:after {
+    opacity: 1;
+    right: 10px;
+  }
+  
+  .collab_button_container button:hover {
+    transition: .5s;
+    background-color: #0C4A80; 
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 7px 4px, 
+    -5px -5px 0 0px #242424; 
+  }
 
 .collab_date_container{
     position: relative;
@@ -129,7 +156,7 @@ justify-content: center;
     flex-direction: column;
 }
 
-.key_grid_one{
+.key_grid_one_c{
 margin-top: 10vh;
 }
 .key_grid_one_inner{
@@ -187,12 +214,12 @@ margin-bottom: 5vh;
 .j_key_features {
     position: relative;
   }
-  .key_grid_background {
+  .key_grid_background_c {
     position: absolute;
     top: -20px;
     left: 0;
     width: 100%;
-    height: 95rem;
+    height: 60rem;
     background-color: #cbcbcb;
     z-index: -1;
     transform: skew(0deg, -12deg); 
@@ -259,7 +286,7 @@ box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px,
     justify-content: flex-end;
 }
 .collab_logo{
-width: 40vw;
+width: 32vw;
 margin: 1rem;
 }
 .jh_container{
@@ -279,12 +306,13 @@ top: -8rem;
 .jh_logo2{
     width: 14.5vw;
     padding-right: 2rem;
+    padding-top: 4rem;
 }
 .acf_container{
     display: flex;
     justify-content: center;
 }
-.key_grid_one p{
+.key_grid_on_c p{
     margin: 0.5rem 2rem;
     font-size: 10pt;
 }
@@ -334,6 +362,33 @@ justify-content: center;
     margin: 0.75rem;
     color: #478ba7;
 }
+
+.collab_page{
+    width: 95vw;
+
+}
+.collab_image_frame{
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.collab_mobile{
+    width: 40vw;
+    margin: 1rem;
+}
+.yarn_container{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+.yarn_img{
+    width: 80vw;
+}
+
+
+
+
   
 @media screen and (min-width: 750px) {
     .project_top_text h1 {
@@ -373,11 +428,7 @@ justify-content: center;
         height: 4.5rem;
         width: 12.5rem;
     }
-    .collab_button_backdrop {
-        height: 4.5rem;
-        width: 12.5rem;
-    }
- 
+
     .collab_project_lower_page h1 {
         font-size: 1.5rem;
     }
@@ -438,7 +489,7 @@ justify-content: center;
     .mobilenav{
         width: 45vw;
     }
-    .key_grid_one p {
+    .key_grid_one_c p {
         font-size: 12pt;
     }
     .key_grid_two p {
@@ -497,12 +548,8 @@ justify-content: center;
         height: 5.5rem;
         width: 14.5rem;
     }
-    .collab_button_backdrop {
-        height: 5.5rem;
-        width: 14.5rem;
-    }
 
-    .key_grid_one {
+    .key_grid_one_c{
         margin-bottom: 21vh;
     }
 
@@ -531,7 +578,7 @@ justify-content: center;
         width: 25vw;
         margin-right: 2rem;
     }
-    .key_grid_one p {
+    .key_grid_one_c p {
         font-size: 14pt;
     }
     .key_grid_two p {
@@ -576,6 +623,9 @@ justify-content: center;
     .customplugin_j {
         width: 30vw;
         margin: 1rem;
+    }
+    .collab_project_mid_page{
+        margin-top:8rem;
     }
 }
 
@@ -709,9 +759,7 @@ justify-content: center;
         width: 45vw;
         padding-top: 1rem;
     }
-    .collab_button_backdrop{
-        left: 49%;
-    }
+
     .collab_mainpage1 {
         width: auto;
         height: 50vh;

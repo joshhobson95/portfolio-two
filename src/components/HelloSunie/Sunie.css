@@ -51,7 +51,6 @@ padding-top: 4rem;
     display: flex;
     justify-content: center;
     z-index: 4;
-    width: 100vw;
     padding-top: 2rem;
     overflow: hidden;
 }
@@ -65,18 +64,37 @@ padding-top: 4rem;
     z-index: 5;
     height: 3.5rem;
     width: 10rem;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px, 
+    -15px -15px 0 0px #001a48; 
+    cursor: pointer;
+    position: relative;
+    
 }
-
-.sunie_button_backdrop {
+.sunie_button_container button:after {
+    content: '»';
+    color: #ffffff;
+    font-size: 28pt;
     position: absolute;
-    top: 53%; 
-    left: 47%; 
-    background-color: #001A48;
-    height: 3.5rem;
-    width: 10rem;
-    z-index: 3;
-    transform: translate(-50%, -50%); 
-}
+    opacity: 0;
+    top: 46%;
+    right: -20px;
+    transform: translateY(-50%);
+    transition: 0.5s;
+    
+  }
+  
+  .sunie_button_container button:hover:after {
+    opacity: 1;
+    right: 10px;
+  }
+  
+  .sunie_button_container button:hover {
+    transition: .5s;
+    background-color: #001a48; 
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 7px 4px, 
+    -5px -5px 0 0px #242424; 
+  }
+
 .sunie_date_container{
     position: relative;
     display: flex;
@@ -102,7 +120,7 @@ justify-content: center;
     align-self: center;
     color: #FE960C;
     text-decoration: underline;
-    margin-top: 2rem;
+    margin-top: 4rem;
 }
 .tech_icons{
     display: flex;
@@ -339,10 +357,7 @@ margin: 1rem;
         height: 4.5rem;
         width: 12.5rem;
     }
-    .sunie_button_backdrop {
-        height: 4.5rem;
-        width: 12.5rem;
-    }
+
  
     .sunie_project_lower_page h1 {
         font-size: 1.5rem;
@@ -417,10 +432,6 @@ margin: 1rem;
         height: 5.5rem;
         width: 14.5rem;
     }
-    .sunie_button_backdrop {
-        height: 5.5rem;
-        width: 14.5rem;
-    }
 
     .key_grid_one {
         margin-bottom: 21vh;
@@ -491,6 +502,9 @@ margin: 1rem;
     }
     .key_grid h2 {
        margin-top: 100px;
+    }
+    .sunie_project_mid_page{
+        margin-top: 8rem;
     }
 }
 
@@ -628,8 +642,21 @@ margin: 1rem;
         width: 45vw;
         padding-top: 1rem;
     }
-    .sunie_button_backdrop{
-        left: 49%;
+    .key_grid_one{
+        margin: 10rem;
+    }
+    .key_grid_one p {
+        font-size: 16pt;
+        margin: 4rem 0rem;
+        margin-right: 30rem;
+    }
+    .key_grid_two{
+        margin: 10rem;
+    }
+    .key_grid_two p {
+        font-size: 16pt;
+        margin: 4rem 0rem;
+        margin-right: 30rem;
     }
 
 
