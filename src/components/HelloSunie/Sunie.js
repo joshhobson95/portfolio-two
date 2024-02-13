@@ -62,7 +62,7 @@ function Sunie() {
           <div className='logo_container'>
           <img className='sunie_logo' src={sunielogo} alt=''/>
           </div>
-          <h1 className='kf'>Key Features</h1>
+          <h1 className='kfs'>Key Features</h1>
 
 
           <div className='key_grid'>

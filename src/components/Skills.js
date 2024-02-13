@@ -59,7 +59,7 @@ function Skills() {
   <span>Heroku</span>
   </div>
   <div className="grid-item" data-aos='zoom-in'>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original.svg" alt=''/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" />
   <span>Amazon Web Services</span>
   </div>
   <div className="grid-item" data-aos='zoom-in'>
@@ -92,10 +92,7 @@ function Skills() {
   </div>
 </div>
  
-<div className='skills_title_container'>
-<h2>Accreditations</h2>
-*scrolling text?
-</div>
+
 
 
 
