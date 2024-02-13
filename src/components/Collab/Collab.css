@@ -163,7 +163,7 @@ margin-top: 10vh;
     display: flex;
 }
 
-.key_grid_two{
+.key_grid_two_c{
 position: relative;
 z-index: 6;
 }
@@ -312,11 +312,11 @@ top: -8rem;
     display: flex;
     justify-content: center;
 }
-.key_grid_on_c p{
+.key_grid_one_c p{
     margin: 0.5rem 2rem;
     font-size: 10pt;
 }
-.key_grid_two p{
+.key_grid_two_c p{
     margin: 0.5rem 2rem;
     font-size: 10pt;
 }
@@ -365,7 +365,7 @@ justify-content: center;
 
 .collab_page{
     width: 95vw;
-
+    padding: 1rem;
 }
 .collab_image_frame{
     display: flex;
@@ -384,6 +384,12 @@ justify-content: center;
 }
 .yarn_img{
     width: 80vw;
+}
+.custom_icon_container{
+    display: flex;
+    justify-content: center;
+    color:white;
+    padding-top: 3rem;
 }
 
 
@@ -448,7 +454,7 @@ justify-content: center;
         width: 40vw;
     }
 
-
+  
 
 }
 
@@ -492,7 +498,7 @@ justify-content: center;
     .key_grid_one_c p {
         font-size: 12pt;
     }
-    .key_grid_two p {
+    .key_grid_two_c p {
         font-size: 14pt;
     }
     .icons_grid{
@@ -528,6 +534,19 @@ justify-content: center;
         width: 50vw;
         margin: 1rem;
     }
+    .collab_page{
+        width: 65vw;
+    }
+    .collab_mobile {
+        width: 30vw;
+    }
+    .key_grid_background_c {
+        height: 148rem;
+    }
+    .custom_icons{
+        font-size: 16pt;
+    }
+
 
 }
 
@@ -581,12 +600,13 @@ justify-content: center;
     .key_grid_one_c p {
         font-size: 14pt;
     }
-    .key_grid_two p {
+    .key_grid_two_c p {
         font-size: 14pt;
     }
     .admin_j {
         width: 35vw;
     }
+
 }
 
 @media screen and (min-width: 1500px) {
@@ -626,6 +646,18 @@ justify-content: center;
     }
     .collab_project_mid_page{
         margin-top:8rem;
+    }
+    .collab_mobile {
+        width: 20vw;
+    }
+    .key_grid_background_c {
+        height: 188rem;
+    }
+    .collab_page {
+       padding-top: 2rem;
+    }
+    .custom_icons{
+        font-size: 18pt;
     }
 }
 
@@ -681,8 +713,8 @@ justify-content: center;
         width: 6.5vw;
     }
     .collab_logo {
-        width: 20vw;
-        margin-right: 3rem;
+        width: 15vw;
+        margin-right: 18rem;
     }
     .project_top_text h1 {
         font-size: 8rem;
@@ -720,7 +752,7 @@ justify-content: center;
         display: flex;
         justify-content: flex-end;
         position: relative;
-        top: -15rem;
+        top: -5rem;
     }
     .splp_2{
         flex-direction: row;
@@ -803,6 +835,32 @@ justify-content: center;
         height: 65vh;
         margin: 2rem;
     }
+    .collab_page {
+        width: 45vw;
+    }
+    .collab_mobile {
+        width: 15vw;
+    }
+    .yarn_img {
+        width: 50vw;
+    }
+    .key_grid_one_c{
+        margin: 10rem;
+    }
+    .key_grid_one_c p {
+        font-size: 16pt;
+        margin: 4rem 0rem;
+        margin-right: 30rem;
+    }
+    .key_grid_two_c{
+        margin: 10rem;
+    }
+    .key_grid_two_c p {
+        font-size: 16pt !important;
+        margin: 4rem 0rem;
+        margin-right: 30rem;
+    }
+
 
 
 

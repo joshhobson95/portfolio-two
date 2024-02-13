@@ -8,6 +8,8 @@ import Projects from "./components/Projects";
 import Jericho from "./components/Jericho/Jericho";
 import Sunie from "./components/HelloSunie/Sunie";
 import Collab from "./components/Collab/Collab";
+import Pilytix from "./components/Pilytix/Pilytix";
+import Shiny from "./components/ShinyChecklist/Shiny";
 
 
 
@@ -23,6 +25,8 @@ function App() {
   <Route path='/jerichonursery' element={<Jericho/>} />
   <Route path='/hellosunie' element={<Sunie/>} />
   <Route path='/collaborative4you' element={<Collab/>} />
+  <Route path='/pilytix' element={<Pilytix/>} />
+  <Route path='/shinychecklist' element={<Shiny/>} />
 </Routes>
     </div>
     </div>

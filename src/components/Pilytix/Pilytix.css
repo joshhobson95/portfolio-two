@@ -5,12 +5,12 @@ body {
     max-width: 100vw;
   }
 
-.jericho_background_image::before {
+.pilytix_background_image::before {
     content: '';
     position: absolute;
     top: 0;
     left: 0;
-    background-image: url('../../assets/Other/cashHouse.jpg');
+    background-image: url('../../assets/Other/pilytix.jpg');
     background-position: center;
     background-size: cover;
     opacity: 0.92;
@@ -26,6 +26,7 @@ body {
     overflow: hidden; 
     height: auto;
 }
+
 
 .project_top_text{
     margin-top: 12.5rem;
@@ -45,17 +46,16 @@ margin: 1rem;
 padding-top: 4rem;
 }
 
-.jericho_button_container {
+.pilytix_button_container {
     position: relative;
     display: flex;
     justify-content: center;
     z-index: 4;
-    width: 100vw;
     padding-top: 2rem;
     overflow: hidden;
 }
 
-.jericho_button_container button {
+.pilytix_button_container button {
     border: none;
     background-color: #242424; 
     color: white;
@@ -65,14 +65,14 @@ padding-top: 4rem;
     height: 3.5rem;
     width: 10rem;
     box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px, 
-    -15px -15px 0 0px #4FA673; 
+    -15px -15px 0 0px #6da6ed; 
     cursor: pointer;
     position: relative;
     
 }
-.jericho_button_container button:after {
+.pilytix_button_container button:after {
     content: '»';
-    color: #242424;
+    color: #ffffff;
     font-size: 28pt;
     position: absolute;
     opacity: 0;
@@ -83,19 +83,19 @@ padding-top: 4rem;
     
   }
   
-  .jericho_button_container button:hover:after {
+  .pilytix_button_container button:hover:after {
     opacity: 1;
     right: 10px;
   }
   
-  .jericho_button_container button:hover {
+  .pilytix_button_container button:hover {
     transition: .5s;
-    background-color: #4FA673; 
+    background-color: #6da6ed; 
     box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 7px 4px, 
     -5px -5px 0 0px #242424; 
   }
 
-.jericho_date_container{
+.pilytix_date_container{
     position: relative;
     display: flex;
     justify-content: flex-end;
@@ -103,59 +103,47 @@ padding-top: 4rem;
     z-index: 3;
     padding-right: 20px;
 }
-.jericho_project_mid_page{
-    margin-top: 4rem;
+.pilytix_project_mid_page{
+    margin-top: 2rem;
     height: auto;
     width: 100vw;
     background-color: #242424;
     position: relative;
     z-index: 1;
 }
-.jericho_tech_used{
+.pilytix_tech_used{
 display: flex;
 justify-content: center;
 }
 
-.jericho_project_mid_page h1{
+.pilytix_project_mid_page h1{
     align-self: center;
-    color: #DBBA4B;
+    color: #41ceac;
     text-decoration: underline;
-    margin-top: 2rem;
+    margin-top: 4rem;
 }
-.tech_icons_j{
+.tech_icons{
     display: flex;
     justify-content: space-evenly;
     width: 100vw;
     padding-top: 2rem;
 }
-.tech_icons_j img{
+.tech_icons img{
     height: 3.5rem;
     width: 3.5rem;
 }
-.icon_container {
-    border-radius: 50%;
-    border: 2px solid rgba(0, 0, 0, 0);
-    padding: .5rem; 
-    transition: 1s;
-  }
-  .icon_container:hover{
-    color: #ffee10;
-    box-shadow: 0 0 5px #ffee10;
-  }
-  
 
-
-.j_key_features{
+.key_features{
     width: 100vw;
     position: relative;
     z-index: 5;
     margin-top: 18vh;
 }
 
-.j_key_features h1{
+.key_features h1{
     display: flex;
     justify-content: center;
-    color: #95562E;
+    color: #6da6ed;
 }
 
 .key_grid{
@@ -164,21 +152,19 @@ justify-content: center;
     flex-direction: column;
 }
 
-.key_grid_one_j{
+.key_grid_one_p{
 margin-top: 10vh;
 }
-.key_grid_one_inner{
-    display: flex;
-}
 
-.key_grid_two_j{
+
+.key_grid_two{
 position: relative;
 z-index: 6;
 }
 
 
 
-.jericho_project_lower_page {
+.pilytix_project_lower_page {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -187,9 +173,9 @@ z-index: 6;
     margin-top: 20%; 
     padding-bottom: 10vh;
 }
-.jericho_project_lower_page h1{
+.pilytix_project_lower_page h1{
     align-self: center;
-    color: #DBBA4B;
+    color: #41ceac;
     text-decoration: underline;
 }
 
@@ -219,10 +205,10 @@ margin-bottom: 5vh;
 }
 
 
-.j_key_features {
+.key_features {
     position: relative;
   }
-  .key_grid_background_j {
+  .key_grid_background_p {
     position: absolute;
     top: -20px;
     left: 0;
@@ -234,66 +220,41 @@ margin-bottom: 5vh;
   }
 
 
-.jericho_mainpage{
-    width: 95vw;
+.mainpage{
+    width: 80vw;
     margin: 1rem;
 }
-.jericho_mainpage1 {
-    width: 90vw;
+.bigicons{
+    width: 80vw;
     margin: 1rem;
-    margin-left: 2rem;
-    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px, /* Current shadow */
-                -15px -15px 0 0px #27373C; /* Second shadow, further adjusted position */
+    padding-left: 3rem;
 }
-
-.jericho_img{
-    width: 85vw;
-    margin: 1rem;
-    margin-left: 3.5rem;
-    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px, 
-    -15px -15px 0 0px #27373C; 
-    
-}
-.jericho_img2{
-    width: 85vw;
-    margin: 1rem;
-    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px, 
-    -15px -15px 0 0px #27373C;
-    
-}
-.inner_square_j{
+.inner_square{
     height: auto;
 }
 .emailstuff{
     width: 90vw;
     margin: 0.5rem;
 }
-.admin_j{
+.metabox{
+    width: 30vw;
     margin: 1rem;
-    margin-left: 4rem;
-    width: 60vw;
-    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px, 
-    -15px -15px 0 0px #27373C; 
-
 }
-.editblog{
-    margin: 1rem;
-    margin-left: 1.5rem;
-width: 90vw;
-box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px, 
--15px -15px 0 0px #27373C; 
-
+.eventdetails{
+height: 30vh;
 }
-.j_inner_square2{
+.inner_square2{
     display: flex;
-    flex-direction: column;
 }
-
+.graphs{
+    width: 80vw;
+    margin: 1rem;
+}
 .logo_container{
     display: flex;
     justify-content: flex-end;
 }
-.jericho_logo{
+.pilytix_logo{
 width: 40vw;
 margin: 1rem;
 }
@@ -319,12 +280,26 @@ top: -8rem;
     display: flex;
     justify-content: center;
 }
-.key_grid_one_j p{
+.acf{
+margin: 1rem;
+}
+.customplugin{
+    width: 92vw;
+    padding-top: 1rem;
+}
+.details{
+    width: 85vw;
+    padding-top: 1rem;
+}
+.customplugin{
+    width: 85vw;
+    padding-top: 1rem;
+}
+.key_grid_one_p p{
     margin: 0.5rem 2rem;
     font-size: 10pt;
 }
-
-.key_grid_two_j p{
+.key_grid_two p{
     margin: 0.5rem 2rem;
     font-size: 10pt;
 }
@@ -334,42 +309,28 @@ top: -8rem;
 .customplugin_container{
     display: flex;
     justify-content: center;
-    flex-direction: column;
 }
-.customplugin_j{
-    width: 85vw;
-    margin: 1rem;
-}
-.graphing_container_j{
+.graphing_container{
     display: flex;
     justify-content: center;
     flex-direction: column;
 }
-.loading_icon{
+.pilytix_images{
+display: flex;
+flex-direction: column;
+justify-content: center;
+margin-bottom: 5rem;
+position: relative;
+}
+.pilytix_images img{
+    width: 90vw;
+    padding: 1.5rem;
+}
+.key_grid_one_inner_p{
 display: flex;
 justify-content: center;
 }
-.mobilenav{
-    margin: 1.5rem;
-    width: 80vw;
-    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px, 
--15px -15px 0 0px #27373C; 
-}
-.mobilehome{
-    margin: 1.5rem;
-    width: 80vw;
-    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px, 
--15px -15px 0 0px #27373C; 
-}
-.hover_span_container{
-    display: flex;
-    justify-content: center;
-}
-.hover_span{
-    font-size: 8pt;
-    margin: 0.75rem;
-    color: #478ba7;
-}
+
 
   
 @media screen and (min-width: 750px) {
@@ -381,27 +342,23 @@ justify-content: center;
         padding-top: 4rem;
         font-size: 16pt;
     }
-    .jericho_date_container {
+    .pilytix_date_container {
         font-size: 14pt;
     }
-    .tech_icons_j{
+    .tech_icons{
         padding-top: 4rem;
     }
-    .tech_icons_j img {
+    .tech_icons img {
         height: 5.5rem;
         width: 5.5rem;
     }
-
-
-
-
-    .jericho_project_mid_page h1{
+    .pilytix_project_mid_page h1{
         font-size: 1.5rem;
     }
     .key_grid {
         margin-left: 1rem;
     }
-    .key_grid_background_j {
+    .key_grid_background_p{
         top: -42px;
         height: 125rem;
     }
@@ -409,17 +366,14 @@ justify-content: center;
         font-size: 1.25rem;
     }
 
-    .jericho_button_container button {
+    .pilytix_button_container button {
         font-size: 18pt;
         height: 4.5rem;
         width: 12.5rem;
     }
-    .jericho_button_backdrop {
-        height: 4.5rem;
-        width: 12.5rem;
-    }
+
  
-    .jericho_project_lower_page h1 {
+    .pilytix_project_lower_page h1 {
         font-size: 1.5rem;
     }
     .splp_2 h3 {
@@ -427,15 +381,6 @@ justify-content: center;
     }
     .splp_2 p {
         font-size: 16pt;
-    }
-    .graphing_container_j{
-        flex-direction: row;
-    }
-    .mobilehome {
-        width: 40vw;
-    }
-    .mobilenav {
-        width: 40vw;
     }
 
 
@@ -446,27 +391,19 @@ justify-content: center;
     .project_top_text h1 {
         font-size: 5rem;
     }
-    .tech_icons_j img {
+    .tech_icons img {
         height: 7.5rem;
         width: 7.5rem;
     }
-    .jericho_project_mid_page{
-        margin-top: 9rem;
-        height: auto;
-        width: 100vw;
-        background-color: #242424;
-        position: relative;
-        z-index: 1;
-    }
 
-    .key_grid_background_j {
+    .key_grid_background_p{
         height: 155rem;
     }
     .eventdetails {
         height: 45vh;
         margin: 7rem;
     }
-    .jericho_project_lower_page {
+    .pilytix_project_lower_page {
         margin-top: 0;
     }
 
@@ -481,95 +418,50 @@ justify-content: center;
         justify-content: center;
         flex-direction: row;
     }
-    .mobilehome{
+    .graphs{
         width: 45vw;
     }
-    .mobilenav{
+    .details{
         width: 45vw;
     }
-    .key_grid_one_j p {
+    .key_grid_one_p p {
         font-size: 12pt;
     }
-    .key_grid_two_j p {
-        font-size: 14pt;
+    .key_grid_two p {
+        font-size: 12pt;
     }
-    .icons_grid{
-        display: flex;
-    }
-    .seminar_icon{
-        width: 35vw;
-    }
-    .deliveryvan_icon{
-        width: 35vw;
-    }
-    .loading_icon{
-        width: 35vw;
-    }
-    .hover_span_container {
-        display: flex;
-        justify-content: flex-start;
-    }
-    .hover_span{
-        font-size: 11pt;
-    }
-    .mobilenav {
-        width: auto;
-        height: 45vh;
-        margin: 5rem;
-    }
-    .mobilehome {
-        width: auto;
-        height: 45vh;
-        margin: 5rem;
-    }
-    .customplugin_j {
-        width: 50vw;
-        margin: 1rem;
-    }
-    .customplugin_j_container {
-       display: flex;
-       justify-content: center;
-    }
+
 
 }
 
 @media screen and (min-width: 1250px) {
-
     .project_top_text h1{
-        font-size: 7rem;
-        margin: 3.5rem;
+        font-size: 6rem;
     }
-
     .project_top_text p {
-        margin: 3rem 16rem !important;
         font-size: 18pt;
-        text-align: center;
     }
-    .jericho_button_container button {
+    .pilytix_button_container button {
         font-size: 20pt;
         height: 5.5rem;
         width: 14.5rem;
     }
-    .jericho_button_backdrop {
-        height: 5.5rem;
-        width: 14.5rem;
-    }
 
-    .key_grid_one_j {
+    .key_grid_one_p {
         margin-bottom: 21vh;
     }
 
     .key_grid h2{
         font-size: 1.5rem;
     }
-    .key_grid_background_j {
+    .key_grid_background_p {
         top: -100px;
         height: 220rem;
     }
-    .tech_icons_j{
+    .tech_icons{
         padding-bottom: 9rem;
     }
-    .jericho_project_lower_page {
+    .pilytix_project_lower_page {
     margin-left: 5rem;
     margin-right: 5rem;
     }
@@ -580,19 +472,19 @@ justify-content: center;
     .jh_logo2{
         width: 8.5vw;
     }
-    .jericho_logo {
+    .pilytix_logo {
         width: 25vw;
         margin-right: 2rem;
     }
-    .key_grid_one_j p {
+    .key_grid_one_p p {
         font-size: 14pt;
+        margin: 3rem;
     }
-    .key_grid_two_j p {
+    .key_grid_two p {
         font-size: 14pt;
+        margin: 3rem;
     }
-    .admin_j {
-        width: 35vw;
-    }
+
 }
 
 @media screen and (min-width: 1500px) {
@@ -626,19 +518,19 @@ justify-content: center;
     .key_grid h2 {
        margin-top: 100px;
     }
-    .customplugin_j {
-        width: 30vw;
-        margin: 1rem;
+    .pilytix_project_mid_page{
+        margin-top: 8rem;
+    }
+    .pilytix_images img {
+        width: 50vw;
     }
 }
 
 
 @media screen and (min-width: 1750px) {
-    .inner_square_j {
+    .inner_square {
         height: auto;
         display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
     }
     .bigicons {
         width: 47vw;
@@ -670,8 +562,11 @@ justify-content: center;
         width: 14vw;
         margin: 1rem;
     }
-
-    .jericho_project_lower_page {
+    .key_grid_background_p {
+        top: -100px;
+        height: 150rem;
+    }
+    .pilytix_project_lower_page {
     margin-top: 0%;
     }
         
@@ -681,7 +576,7 @@ justify-content: center;
     .jh_logo2{
         width: 6.5vw;
     }
-    .jericho_logo {
+    .pilytix_logo {
         width: 20vw;
         margin-right: 3rem;
     }
@@ -695,14 +590,14 @@ justify-content: center;
         position: relative;
         top: 5rem;
     }
-    .key_grid_background_j {
-        top: -300px;
-        height: 250rem;
+    .key_grid_background_p {
+        top: -240px;
+        height: 167rem;
     }
-    .jericho_project_mid_page h1 {
+    .pilytix_project_mid_page h1 {
         font-size: 2.5rem;
     }
-    .jericho_project_lower_page h1 {
+    .pilytix_project_lower_page h1 {
         font-size: 2.5rem;
     }
     .key_grid h2 {
@@ -710,11 +605,11 @@ justify-content: center;
         margin-top: 50px;
         margin-bottom: 50px;
     }
-    .tech_icons_j img {
+    .tech_icons img {
         height: 9rem;
         width: 9rem;
     }
-    .tech_icons_j {
+    .tech_icons {
         padding-top: 7rem;
     }
     .logo_container {
@@ -743,8 +638,8 @@ justify-content: center;
     .kf{
         margin-top: -10vh !important;
     }
-    .jericho_date_container{
-        margin-top: 15rem;
+    .pilytix_date_container{
+        margin-top: 10rem;
     }
     .project_top_text p {
         margin: 5rem 26rem;
@@ -755,77 +650,34 @@ justify-content: center;
     .graphing_container {
    width: 45vw;
     }
-
-    .customplugin_j {
+    .graphs {
+        width: 20vw;
+    }
+    .details {
+        width: 20vw;
+    }
+    .customplugin {
         width: 45vw;
         padding-top: 1rem;
     }
-    .jericho_button_backdrop{
-        left: 49%;
-    }
-    .jericho_mainpage1 {
-        width: auto;
-        height: 65vh;
-    }
-    .jericho_img {
-        width: auto;
-        height: 32vh;
-    }
-    .jericho_img2 {
-        width: auto;
-        height: 32vh;
-    }
-    .editblog {
-        width: auto;
-        height: 40vh;
-    }
-    .admin_j {
-        width: 20vw;
-        height: auto;
-    }
-    .j_inner_square2 {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-    }
-    .key_grid_one_j{
-        margin: 10rem
-    }
-    .key_grid_one_j p {
-        font-size: 16pt;
-        margin: 4rem 0rem;
-        margin-right: 30rem;
-    }
-    .key_grid_one_inner {
-        display: flex;
-        justify-content: center !important;
-    }
-    .customplugin_j {
-        width: 20vw;
-        padding-top: 1rem;
-    }
-    .mobilehome {
-        width: auto;
-        height: 65vh;
-        margin: 2rem;
-    }
-    .mobilenav {
-        width: auto;
-        height: 65vh;
-        margin: 2rem;
-    }
-    .key_grid_two_j{
+    .key_grid_one_p{
         margin: 10rem;
     }
-    .key_grid_two_j p {
+    .key_grid_one_p p {
         font-size: 16pt;
+        margin: 4rem 0rem;
+        margin-right: 30rem;
+    }
+    .key_grid_two{
+        margin: 10rem;
+    }
+    .key_grid_two p {
+        font-size: 16pt !important;
         margin: 4rem 0rem;
         margin-right: 30rem;
     }
 
 
-
-
     
     
 
@@ -837,13 +689,3 @@ justify-content: center;
 
 
 
-
-@media screen and (min-width: 2000px) {
-    .key_grid_one_j p {
-        margin-right: 50rem;
-    }
-    .key_grid_two_j p {
-        margin-right: 50rem;
-    }
-
-}

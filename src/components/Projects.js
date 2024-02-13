@@ -21,7 +21,7 @@ function Projects() {
         <div className='grid_outer'>
 
 
-        <div className='grid_item_projects'>
+        {/* <div className='grid_item_projects'>
             <div className='cashHouse_text'>
                             <h1>Center for Relational Learning Web Development</h1>         
                     </div>
@@ -29,7 +29,7 @@ function Projects() {
                 <img alt='' src={santafe} className='sunie'/>
                </NavLink>
 
-            </div>
+            </div> */}
 
 
             <div className='grid_item_projects'>
@@ -65,7 +65,7 @@ function Projects() {
             <div className='cashHouse_text'>
                             <h1>Pilytix Assesment </h1>         
                     </div>
-            <NavLink to='/hellosunie'>
+            <NavLink to='/pilytix'>
                 <img alt='' src={pilytix} className='sunie'/>
                </NavLink>
 
@@ -74,7 +74,7 @@ function Projects() {
             <div className='cashHouse_text'>
                             <h1>Shiny Pokemon Checklist</h1>         
                     </div>
-            <NavLink to='/hellosunie'>
+            <NavLink to='/shinychecklist'>
                 <img alt='' src={pokemon} className='sunie'/>
                </NavLink>
 

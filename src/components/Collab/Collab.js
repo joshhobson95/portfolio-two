@@ -111,25 +111,13 @@ function Collab() {
   </div>
 
 <h1>Design Elements</h1>
-
-<div className='splp_2'>
-<div className='splp_inner_1'>
-  <h3>Custom Icons</h3>
+<div className='custom_icon_container'>
+  <h3 className='custom_icons'>Custom Graphic</h3>
+</div>
   <div className='yarn_container'>
       <img className='yarn_img' src={yarn} alt=''/>
-  </div>
-</div>
 
-<div className='splp_inner_2'>
-  {/* <h3>Custom Mobile Styling</h3>
-  <p>
-  In overseeing the data direction for specific service and project views, I meticulously curated detailed pages that dynamically showcased information relevant to the selected service. Elevating the user experience, I crafted custom PHP functions to generate insightful graphs from scratch, seamlessly integrating them into the HTML and CSS structure, thereby delivering visually compelling representations of pertinent data tailored to each viewed service or project
-  </p> */}
-<div className='graphing_container_j'>
 
-</div>
-
-</div>
 </div>
 
 

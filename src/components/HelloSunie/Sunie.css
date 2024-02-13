@@ -63,7 +63,7 @@ padding-top: 4rem;
     font-weight: 500;
     z-index: 5;
     height: 3.5rem;
-    width: 10rem;
+    width: 15rem;
     box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px, 
     -15px -15px 0 0px #001a48; 
     cursor: pointer;
@@ -71,8 +71,8 @@ padding-top: 4rem;
     
 }
 .sunie_button_container button:after {
-    content: '»';
-    color: #ffffff;
+    content: 'x';
+    color: #a30b0b;
     font-size: 28pt;
     position: absolute;
     opacity: 0;
@@ -143,7 +143,7 @@ justify-content: center;
 .key_features h1{
     display: flex;
     justify-content: center;
-    color: #001A48;
+  
 }
 
 .key_grid{
@@ -654,7 +654,7 @@ margin: 1rem;
         margin: 10rem;
     }
     .key_grid_two p {
-        font-size: 16pt;
+        font-size: 16pt !important;
         margin: 4rem 0rem;
         margin-right: 30rem;
     }

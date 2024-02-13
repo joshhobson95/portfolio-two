@@ -59,7 +59,7 @@ function Jericho() {
         </div>
 
 
-        <div className='tech_icons'>
+        <div className='tech_icons_j'>
   <div class='icon_container'>
     <img className='php' src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg' alt=''/>
   </div>

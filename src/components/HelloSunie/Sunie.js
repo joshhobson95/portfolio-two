@@ -28,8 +28,7 @@ function Sunie() {
 
         
     <div className='sunie_button_container'>
-        <div className='sunie_button_backdrop'></div>
-    <button>Visit Demo</button>
+    <button>No Public Code</button>
     </div>
 
 
