@@ -125,8 +125,18 @@ overflow: hidden;
     justify-content: center;
     text-align: center;
 }
-
-
+  
+.secret{
+position: absolute;
+z-index: 3;
+top: 100vh
+}
+.themoon{
+   border: none;
+   background-color: #434747;
+   border-radius: 100px;
+   color: rgb(95, 95, 95);
+}
 
 
 @media screen and (min-width: 1100px) { 

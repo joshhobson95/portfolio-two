@@ -10,7 +10,7 @@ import Sunie from "./components/HelloSunie/Sunie";
 import Collab from "./components/Collab/Collab";
 import Pilytix from "./components/Pilytix/Pilytix";
 import Shiny from "./components/ShinyChecklist/Shiny";
-
+import Secret from "./components/Home/Secret";
 
 
 function App() {
@@ -27,6 +27,7 @@ function App() {
   <Route path='/collaborative4you' element={<Collab/>} />
   <Route path='/pilytix' element={<Pilytix/>} />
   <Route path='/shinychecklist' element={<Shiny/>} />
+  <Route path='/secret' element={<Secret/>} />
 </Routes>
     </div>
     </div>

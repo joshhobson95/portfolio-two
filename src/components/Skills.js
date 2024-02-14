@@ -5,6 +5,8 @@ import ParticleBackdrop from './Background/ParticleBackdrop'
 
 function Skills() {
   return (
+    <div>
+
     <div className='skills_outer'>
 
 <div className='skills_main'>
@@ -95,13 +97,10 @@ function Skills() {
 
 
 
-
 </div>
-
+    </div>
 
 <ParticleBackdrop className="particle_skills"/>
-
-
     </div>
   )
 }

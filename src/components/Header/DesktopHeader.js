@@ -5,7 +5,7 @@ import './DesktopHeader.css'
 function DesktopHeader() {
   return (
     <div className='header_outer'>
-        
+  
     <div className="header_right">
       <h1>
   <NavLink to='/'>
