@@ -12,11 +12,13 @@ import { NavLink } from 'react-router-dom'
 function Projects() {
 
 
-//add aos to these
+
   return (
     <div className='projects_and_particle'>
 
+        
 <div className='projects_outer'>
+        <h1 className='projects_header'>Projects</h1>
 
         <div className='grid_outer'>
 

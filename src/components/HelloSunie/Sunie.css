@@ -73,11 +73,11 @@ padding-top: 4rem;
 .sunie_button_container button:after {
     content: 'x';
     color: #a30b0b;
-    font-size: 28pt;
+    font-size: 22pt;
     position: absolute;
     opacity: 0;
     top: 46%;
-    right: -20px;
+    right: -10px;
     transform: translateY(-50%);
     transition: 0.5s;
     
@@ -85,7 +85,8 @@ padding-top: 4rem;
   
   .sunie_button_container button:hover:after {
     opacity: 1;
-    right: 10px;
+    top: 48%;
+    right: 4px;
   }
   
   .sunie_button_container button:hover {

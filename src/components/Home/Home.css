@@ -98,7 +98,7 @@ overflow: hidden;
 }
 .newlogo_container{
     position: absolute;
-    top: 800px;
+    top: 950px;
     left: 0px;
     z-index: 5;
 }
@@ -107,6 +107,7 @@ overflow: hidden;
     height: 20vh;
     width: auto;
     padding-left: 2rem;
+    
 }
 
 .offers{

@@ -140,8 +140,12 @@ top: -4vh;
     padding: 10px;
     border-radius: 5px;
     margin-top: 20px;
-    font-family: Inter;
 }
+.send:hover{
+    background-color: #242424;
+    border: 1px solid #d9d9d9;
+    color: #d9d9d9;
+    }
 
 .image_container{
     position: relative;
@@ -161,7 +165,7 @@ top: -4vh;
     display: flex;
     justify-content: center;
 }
-.resume_button{
+.resume_button {
     margin: 1rem;
     border: none;
     background-color: #242424;
@@ -172,13 +176,16 @@ top: -4vh;
     font-weight: 600;
     padding: 10px;
     border-radius: 5px;
-    font-family: Inter;
     cursor: pointer;
+    transition: 1s;
 }
-.resume_button:hover{
-  transition: 1s;
-  background-color: #572f0a;
+
+.resume_button:hover {
+background-color: #d9d9d9;
+color: #242424;
+border: 1px solid #242424;
 }
+
 
 .alert {
     position: fixed;
@@ -204,15 +211,7 @@ top: -4vh;
     background-color: #f44336; /* Red */
   }
   
-  
 
-/* MOBILE STYLING */
-/* MOBILE STYLING */
-/* MOBILE STYLING */
-/* MOBILE STYLING */
-/* MOBILE STYLING */
-/* MOBILE STYLING */
-/* MOBILE STYLING */
 
 
 
@@ -365,8 +364,10 @@ top: -4vh;
         padding: 10px;
         border-radius: 5px;
         margin-top: 20px;
-        font-family: Inter;
+        transition: 1s;
+        cursor: pointer;
     }
+
     
     .image_container{
         position: relative;
@@ -398,7 +399,7 @@ top: -4vh;
         padding: 5px;
         border-radius: 5px;
         margin-top: 3.5rem;
-        font-family: Inter;
+
     }
     .modal_right{
         padding: 60px;
