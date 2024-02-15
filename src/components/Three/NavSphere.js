@@ -3,8 +3,8 @@ import React, { useState, useEffect, useRef } from 'react';
 import { Canvas } from '@react-three/fiber';
 import { OrbitControls } from '@react-three/drei';
 import './NavSphere.css';
-import Sphere from './Utils'; // Import the Sphere component
-import Menu from './Menu'; // Import the Menu component
+import Sphere from './Utils'; 
+import Menu from './Menu'; 
 
 
 const NavSphere = () => {
@@ -27,7 +27,6 @@ const NavSphere = () => {
 
   useEffect(() => {
     const handleCanvasClick = () => {
-      // Toggle the menu when the sphere is clicked
       setIsMenuOpen(prevState => !prevState);
     };
 
@@ -73,6 +72,7 @@ const NavSphere = () => {
           zIndex: 1, 
         }}
         ref={canvasRef}
+        camera={{ position: [4, 4, -5] }}
       >
         <ambientLight intensity={2} />
         <directionalLight position={[10, 10, 10]} />
